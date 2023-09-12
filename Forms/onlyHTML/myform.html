@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>my form</title>
+    </head>
+
+    <body>
+        <form>
+
+            <fieldset style="form; border: 3px solid black;align-content: center; height: 600; width: 400;">
+                <center>
+                    <h1>Registration Forms</h1>
+                </center>
+                <label>NAME <br><input type="text" required> </label>
+                <label><br> Password <br><input type="password" pattern="[a-z0-5]{8,}" required></label>
+                <label><br> Email <br><input type="email" name="email" placeholder="abc@gmail.com" required></label>
+                <label> <br><br> Gender <select name="gender" id="gender">
+                        <option value="">(Gender)</option>
+                        <option value="1"> Male</option>
+                        <option value="2"> Female</option>
+                        <option value="3"> Other</option>
+                    </select></label>
+                <label><br><br> which course are you currenty pursuing? <br><input type="radio" name="course">B.E
+                </label>
+                <label> <br><input type="radio" name="course"> B.Tech </label>
+                <label><br><br> which food do you like?<br><input type="checkbox" name="food"> Veg </label>
+                <label> <br><input type="checkbox" name="food"> Non-Veg </label>
+                <label><br><br> Whats your Interest?<br></label>
+                <textarea rows="3" cols="30" placeholder="Im interested in ...."></textarea>
+                <label><br><br>Upload Photo <input type="file" name="photo"> </label>
+                <footer><br><br><input type="checkbox" name="copyrights" required> I accept terms and policy</footer>
+            </fieldset>
+            <label><input type="submit" name="submit"></label>
+        </form>
+    </body>
+    <a href="file:///C:/vlc%20code/multipage.html">BACK</a>
+
+    </html>

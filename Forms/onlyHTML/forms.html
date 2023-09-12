@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-done-16.png">
+
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form>
+        <fieldset>
+            <label>Enter Your First Name: &nbsp; <input type="text" name="first-name" required /></label> <br><br>
+            <label>Enter Your Last Name: &nbsp; <input type="text" name="last-name" required /></label><br><br>
+            <label>Enter Your Email: &nbsp; <input type="email" name="email" required /></label><br><br>
+            <label>Create a New Password: &nbsp; <input type="password" name="password" pattern="[a-z0-5]{8,}"
+                    required /></label>
+        </fieldset>
+        <fieldset>
+            <label><input type="radio" name="account-type" /> Personal Account</label><br><br>
+            <label><input type="radio" name="account-type" /> Business Account</label><br><br>
+            <label>
+                <input type="checkbox" name="terms" required /> I accept the <a
+                    href="https://www.google.org/news/terms-of-service/">terms and conditions</a>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>Upload a profile picture: <input type="file" name="file" /></label><br><br>
+            <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
+            </label><br><br>
+            <label>How did you hear about us?
+                <select name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">YouTube Channel</option>
+                    <option value="3">Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label><br><br>
+            <label>Provide a bio:
+                <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+            </label><br><br>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+    <!-- <a href="file:///C:/vlc%20code/multipage.html">BACK</a> -->
+</body>
+
+</html>
