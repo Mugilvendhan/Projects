@@ -1,0 +1,26 @@
+table,tr,td,th {
+        border-bottom: 1px solid #ddd;
+        border-collapse: collapse;
+        padding-left: 10px;
+        font-family: sans-serif;
+
+      }
+table {
+        width: 70%;
+        margin-top: 50px;
+        margin: auto;
+        padding-right: 10px;
+        border: 2px solid black;
+        border-top: hidden;
+        border-collapse: collapse;
+        border: none;
+      }
+th {
+        text-align: left;
+      }
+.bl,span {
+        color: rgb(56, 56, 250);
+      }
+.border,tr{
+  border:none;
+}
