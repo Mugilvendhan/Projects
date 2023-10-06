@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jdsite.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+       <h3 style="align-items: baseline;"><b><b><i class='bx bxl-vuejs'></i>&nbsp;Job Hunter</b></b></h3> 
+    </div>
+    <div class="dream">
+    <p>Land in Your Dream Job</p>
+</div>
+</header>
+     <section>
+           <form action="JD">
+            <fieldset>
+            <h2>Personal Details</h2>
+            <p>
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="  Enter name" required><br><br>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="  your MailID" required><br><br>
+            </p>
+            <p>  
+            <label for="password">Password</label>
+                <input type="password" name="password" id="password" pattern="[a-z0-9]{8,0}" placeholder="  Alpha-Num min 8 character" required><br><br>
+            </p>  
+            <p> 
+                <label for="num">Mobile Number</label>
+                <input type="number" name="num" id="num" placeholder="  Mobile number" required><br><br>
+            </p>
+            <p>
+                <label for="date">DOB</label>
+                <input value="" type="date" id="date" name="date" placeholder="  Enter Date">
+            </p><br>
+            <p>
+                <label for="degree">Degree</label>
+                <select name="degree" id="degree">
+                <option value="">(choose one)</option>
+                <option value="">computer science and engineering</option>
+                <option value="">electrical and electronic engineering</option>
+                <option value="">electrical and communication engineering</option>
+                <option value="">mechanical engineering</option>
+                <option value="">civil engineering</option>
+            </select>
+            </p><br>
+            <p>
+                <label for="workstatus">Work status </label>
+                <select name="workstatus" id="workstatus">
+                    <option value="">(select one)</option>
+                    <option value="fresher">Fresher</option>
+                    <option value="experienced">Experienced</option>
+                </select>
+            </p><br>
+            <p>
+                <label for="location">Current Location</label>
+                <input value="" type="text" id="location" name="location" placeholder="  Enter location">
+            </p><br>
+            <p>
+                <label for="pin">Pincode</label>
+                <input value="" type="number" id="pincode" name="pincode" placeholder="  Enter pincode">
+            </p><br>
+
+        
+                 <hr>
+                 <div class="tab">
+                    <h2>
+                        Role
+                    </h2>
+                    <label for="role">Title </label>
+                <select name="role" id="role">
+                    <option value="">(select one)</option>
+                    <option value="">FrontEnd Dev</option>
+                    <option value="">BackEnd Dev</option>
+                    <option value="">FullStack Dev</option>
+                    <option value="">Web3 Dev</option>
+                    <option value="">Software Dev</option>
+                </select><br><br><br>
+
+                <label for="duration">Duration</label>
+                    <select name="duration" id="duration">
+                        <option value="">(select one)</option>
+                        <option value="">Full Time</option>
+                        <option value="">Part Time</option>
+                        <option value="">Intern</option> 
+                    </select><br><br><br>
+                <label for="skills">Skills</label>
+                <textarea name="skills" id="" cols="40" rows="2" placeholder="Enter your Skills here..."></textarea> <br><br><br>
+                 
+                <label for="certificate">Upload Certificates</label>
+                <input type="file" name="certificate" id="certificate"  multiple> <br><br><br>
+                <label for="resume">Upload Resume</label>
+                <input type="file" name="resume" id="resume" >
+            </div><br><br><br>
+
+            <div class="button-container">
+                <button type="submit">Apply Now</button>
+            </div>
+
+            </fieldset>
+           </form>
+     </section>
+
+</body>
+</html>
