@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FoodDemo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Recipe Book</title>
+</head>
+
+<body>
+    <header>
+        <a href="#home"><div class="logo">Recipe Book</div></a>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#recipe">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="content" id="home">
+            <input type="search" placeholder=" Enter food name">
+            <label for="search"></label>
+            <select name="search" id="search">
+            <option value="">By Ingredient</option>
+            <option value="">sweets</option>
+            <option value="">vegan foods</option>
+            <option value="">un cooked recipes</option>
+            <option value="">meat & fish</option>
+            </select>
+            <label for="cate"></label>
+            <select name="cate" id="cate">
+            <option value="">By Cuisine</option>
+            <option value="">indian</option>
+            <option value="">american</option>
+            <option value="">japanese</option>
+            <option value="">thai</option>
+        </select>
+            <h1>A taste you'll remember</h1>
+            <h3>Come lets cook together</h3>
+            <div class="button" id="categories">Here we go !</div>
+        </div>
+    </div>
+   
+   
+    <!--------------categories section-------------------------------->
+    <div class="categories" id="categories">
+        <h2>Categories</h2>
+        <div class="box">
+            <div class="ca-card">
+                <img src="food6.jpg" alt="food">
+                <div class="content">
+                    <h3>Fireless cooked Foods</h3>
+                    <p>Raw food, raw energy.</p>
+                    <a href="uncook1.html"><button>take a bite</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="food9.jpg" alt="">
+                <div class="content">
+                    <h3>Dairy sweets</h3>
+                    <p>Treat yourself with sweets</p>
+                    <a href="dairySweets.html"><button>have a Taste</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="food8.jpg" alt="">
+                <div class="content">
+                    <h3>Vegan way</h3>
+                    <p>Veggies for Life!</p>
+                   <a href="vegen1.html"><button>grab it</button></a> 
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="food10.jpg" alt="">
+                <div class="content">
+                    <h3>Meat day</h3>
+                    <p>The Meat that Makes You Smile!</p>
+                   <a href="meat1.html"><button>chew it</button></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-----Recipes Section Start---------------------------------->
+     <div class="recipe" id="recipe">
+        <h2>Popular Recipes</h2>
+        <div class="box">
+            <div class="card">
+                <img src="food12.jpg" alt="">
+                <div class="content">
+                    <h3>Veg Salad</h3>
+                    <P>Indian style Lentil Salad -> 35 mins</P>
+                    <a href="vegsalad1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food11.jpg" alt="">
+                <div class="content">
+                    <h3>Basundhi</h3>
+                    <P>Badam milk Basundhi -> 22 mins</P>
+                    <a href="basundhi1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food13.jpg" alt="">
+                <div class="content">
+                    <h3>Veg Briyani</h3>
+                    <P>Vegan special Briyani -> 29 mins</P>
+                    <a href="vegbriyani1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food15.jpg" alt="">
+                <div class="content">
+                    <h3>Japanese zucchini</h3>
+                    <P>Meal with salmon and zucchini -> 42 mins</P>
+                    <a href="zucchini1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food14.jpg" alt="">
+                <div class="content">
+                    <h3>Thai Noodels</h3>
+                    <P>Elit spicy Noodels -> 19 mins</P>
+                    <a href="noodels1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food16.png" alt="">
+                <div class="content">
+                    <h3>SeeFood</h3>
+                    <P>Juicy Prawn tikka -> 47 mins</P>
+                    <a href="seefood1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food17.jpg" alt="">
+                <div class="content">
+                    <h3>Kutchi Dabeli</h3>
+                    <P>Bread fruit Snacks -> 9 mins</P>
+                    <a href="kutchi1.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food18.jpg" alt="">
+                <div class="content">
+                    <h3>Barbeque chiken</h3>
+                    <P>Spicy Grilled Chicken Breast -> 48 mins</P>
+                    <a href="barbequen.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+<footer id="#contact">
+    <a href="#home" ><h4>Recipe Book</h4></a>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class='bx bxl-facebook-circle' style='color:#ffffff' ></i> </a>
+        <a href="#" class="social-icon"> <i class='bx bxl-youtube' style='color:#ffffff'></i></a>
+        <a href="#" class="social-icon"> <i class='bx bxl-instagram-alt' style='color:#ffffff' ></i></a>
+    </div>
+    <h5>CopyRight © 2023 By Recipes Book</h5>
+</footer>
+</body>
+
+</html>
