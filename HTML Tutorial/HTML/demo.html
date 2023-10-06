@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+                
+              </li>
+              
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+                 <ul class="nav-flyout">
+                  <li>
+                    <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+                  </li>
+                  <li>
+                    <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+                  </li>
+                  <li>
+                    <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+                  </li>
+                 <li>
+                    <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+                  </li>
+                   <li>
+                    <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+                  </li>
+                  <li>
+                    <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+                  </li>
+                  <li>
+                    <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+                  </li>
+                </ul> 
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                  
+                </ul>
+              </li>
+             
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Introduction</label>
+  <label class="tab" id="two-tab" for="two">Why HTML</label>
+  <label class="tab" id="three-tab" for="three">Application</label>
+  <label class="tab" id="four-tab" for="four">Prerequisites</label>
+ <label class="tab" id="five-tab" for="five">HTML History</label>
+  <!--  <label class="tab" id="six-tab" for="six">Fonts</label> -->
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML INTRODUCTION</h2>  
+    <hr>
+    <div class="panel-title">What is HTML?</div><br>
+    <div class="panel-img"><img src="web11.jpg" alt=""></div><br>
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          HTML, which stands for <span>Hyper Text Markup Language</span>, 
+          serves as the fundamental framework for <span>crafting web pages</span>. 
+          <!-- It outlines the structure of these pages through a series of elements,
+           each designed to instruct the browser on how to present content.  -->
+           These elements act as labels, identifying various pieces of content, 
+           whether it be a heading or a paragraph, and guide their display on the screen.
+            In essence, HTML is the <span>backbone of web design</span>, dictating how information is organized and presented to users.
+        </p>
+    </div>
+
+        <hr>
+          <div class="panel-title"> HTML Layout</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+               &lt;!DOCTYPE html&gt; <br>
+             &nbsp;&lt;html&gt;<br>
+             &nbsp;&nbsp; &lt;head&gt;<br>
+             &nbsp;&nbsp;&nbsp; &lt;title&gt;Page Title&lt;/title&gt;<br>
+             &nbsp;&nbsp;  &lt;/head&gt;<br>
+             &nbsp; &lt;body&gt;<br><br>
+               
+             <!-- &nbsp;&nbsp; &lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+             &nbsp;&nbsp;  &lt;p&gt;My first paragraph.&lt;/p&gt;<br> -->
+             &nbsp;&nbsp;//comments// <br><br>
+             &nbsp; &lt;/body&gt;<br>
+               &lt;/html&gt;<br>
+              </p>
+            </fieldset>
+          </div>
+          <!-- <div class="panel-content">
+            <fieldset>
+                    <p>
+                        Simple Elements
+                    </p>
+                    <li>The <span>< !DOCTYPE html ></span> declaration defines that this document is an HTML5 document.</li>
+                    <li>The <span>< html ></span> element is the root element of an HTML page.</li>
+                    <li>The <span>< head ></head></span> element contains meta information about the HTML page.</li>
+                    <li>The <span>< title ></title></span>  element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).</li>
+                    <li>The <span>< body >< /body ></span>  element defines the document's body, for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>   
+                    <li>The <span>< h1 ></span> element defines a large heading.</li>
+                    <li>The <span>< p ></span> element defines a paragraph.</li>
+          </fieldset>
+            </div> -->
+   </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+    <!-- <div class="chat1"> -->
+      <h2>Why to learn HTML?</h2>
+      <hr>
+      <div class="panel-title">To create Web-sites :</div>
+      <div class="panel-content">
+         <p>You can create a website or customize an existing web template if you know HTML well.</p>
+      </div>
+      <div class="panel-img">
+          <img src="web13.jpg" alt="">
+      </div>
+      <hr>
+      <div class="panel-title">Become a web designer :</div>
+      <div class="panel-content">
+        <p>If you want to start a carrer as a professional web designer, HTML and CSS designing is a must skill.</p>
+      </div>
+      <div class="panel-img">
+        <img src="web6.jpg" alt="">
+    </div>
+    <hr>
+    <div class="panel-title">Understand web :</div>
+      <div class="panel-content">
+        <p> If you want to optimize your website, to boost its speed and performance,
+           it is good to know HTML to yield best results.</p>
+      </div>
+      <div class="panel-img">
+        <img src="web3.jpg" alt="">
+    </div>
+    <hr>
+    <div class="panel-title">Learn other languages :</div>
+      <div class="panel-content">
+        <p>Once you understands the basic of HTML then other related technologies like
+           javascript, php, or angular are become easier to understand.</p>
+      </div>
+      <div class="panel-img">
+        <img src="web4.jpg" alt="">
+    </div>
+  </div>
+
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>Applications of HTML</h2>
+    <hr>
+    <div class="panel-title">Web pages development :</div>
+      <div class="panel-content">
+        <p>HTML is used to create pages which are rendered over the web. 
+          Almost every page of web is having html tags in it to render its details in browser.</p>
+      </div>
+      <div class="panel-img">
+        <img src="web5.jpg" alt="">
+    </div>
+    <hr>
+    <div class="panel-title">Internet Navigation :</div>
+    <div class="panel-content">
+      <p>HTML is used to create pages which are rendered over the web. 
+        Almost every page of web is having html tags in it to render its details in browser.</p>
+    </div>
+    <div class="panel-img">
+      <img src="web7.jpg" alt="">
+  </div>
+  <hr>
+  <div class="panel-title">Responsive UI :</div>
+  <div class="panel-content">
+    <p> HTML provides tags which are used to navigate from one page to another and is heavily used in internet navigation.</p>
+  </div>
+  <div class="panel-img">
+    <img src="web8.jpg" alt="">
+</div>
+<hr>
+<div class="panel-title">Game development :</div>
+<div class="panel-content">
+  <p> HTML5 has native support for rich experience and is now useful in gaming developent arena as well.</p>
+</div>
+<div class="panel-img">
+  <img src="web9.jpg" alt="">
+</div>
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>The required Prerequisites are</h2> 
+  <hr>
+  <div class="panel-content">
+    <li>Experience with any text editor like notepad, notepad++, or Edit plus etc.</li>
+    <li>How to create directories and files on your computer.</li>
+    <li>How to navigate through different directories.</li>
+    <li>Understanding about images in different formats like JPEG, PNG format.</li>
+  </div><br><br>
+  <div class="panel-img"><img src="web12.jpg" alt=""></div>
+  </div> 
+  <div class="panel" id="five-panel">
+    <h2>History of HTML</h2>
+    <hr>
+  <div class="table">
+    <table border="1">
+      <tr>
+          <th>Year</th>
+          <th>Version</th>
+      </tr>
+      <tr>
+          <td>1989</td>
+          <td>Tim Berners-Lee invented www</td>
+      </tr>
+      <tr>
+          <td>1991</td>
+          <td>Tim Berners-Lee invented HTML</td>
+      </tr>
+      <tr>
+          <td>1993</td>
+          <td>Dave Raggett drafted HTML+</td>
+      </tr>
+      <tr>
+          <td>1995</td>
+          <td>HTML Working Group defined HTML 2.0</td>
+      </tr>
+      <tr>
+          <td>1997</td>
+          <td>W3C Recommendation: HTML 3.2</td>
+      </tr>
+      <tr>
+          <td>1999</td>
+          <td>W3C Recommendation: HTML 4.01</td>
+      </tr>
+      <tr>
+          <td>2000</td>
+          <td>W3C Recommendation: XHTML 1.0</td>
+      </tr>
+      <tr>
+          <td>2008</td>
+          <td>WHATWG HTML5 First Public Draft</td>
+      </tr>
+      <tr>
+          <td>2012</td>
+          <td>WHATWG HTML5 Living Standard</td>
+      </tr>
+      <tr>
+          <td>2014</td>
+          <td>W3C Recommendation: HTML5</td>
+      </tr>
+      <tr>
+          <td>2016</td>
+          <td>W3C Candidate Recommendation: HTML 5.1</td>
+      </tr>
+      <tr>
+          <td>2017</td>
+          <td>W3C Recommendation: HTML5.1 2nd Edition</td>
+      </tr>
+      <tr>
+          <td>2017</td>
+          <td>W3C Recommendation: HTML5.2</td>
+      </tr>
+  </table>
+   </div>
+  </div>
+</div>
+</div>
+<footer style="background-color: black;">
+  
+    <p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+    <div class="foot">
+       <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' ></i>&nbsp; &nbsp; &nbsp;
+        <i class='bx bxl-youtube' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram'></i></p>
+    </div>
+    <h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

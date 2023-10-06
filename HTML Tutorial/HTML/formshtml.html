@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorhtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+               
+              </li>
+             
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                 
+                </ul>
+              </li>
+              
+             
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Forms</label>
+  <label class="tab" id="two-tab" for="two">Attribute</label>
+  <label class="tab" id="three-tab" for="three">Elements</label>
+  <label class="tab" id="four-tab" for="four">Input Types</label>
+ <label class="tab" id="five-tab" for="five">Input Attribute</label>
+  <!--  <label class="tab" id="six-tab" for="six">Fonts</label> -->
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML Forms</h2>  
+    <hr>
+    <div class="panel-title">&lt;form> Element</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            The &lt;form> element is a container for different types of input elements, 
+                such as: <span>text fields, checkboxes, radio buttons, submit buttons,</span> etc.
+
+                All the different form elements are covered in this chapter: HTML Form Elements.
+
+        
+        </p>
+        <hr>
+              <div class="panel-title">Example</div>
+              <div class="panel-code">
+               <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+                  <p>
+                    &lt;form> <br>
+                        . <br>
+                        form elements <br>
+                        . <br>
+                        &lt;/form> <br>
+                    
+    
+    
+                  </p>
+                </fieldset>  
+              </div>
+             
+              
+  </div>
+<!-- ///////////////////////////////////////////////////////////////// -->  
+ <hr>
+           <div class="panel-title">&lt;input> Element</div>
+           <div class="panel-content">
+            <p>
+                The HTML &lt;input> element is the most used form element. <br>
+
+An &lt;input> element can be displayed in many ways, depending on the type attribute. <br>
+
+Here are some examples: <br>
+            </p>
+           </div>
+           <div class="table">
+           
+   <table border="1">
+      <tr>
+         <th>Type</th>
+         <th>Description</th>
+      </tr>
+      <tr>
+         <td><input type="text"></td>
+         <td>Displays a single-line text input field</td>
+      </tr>
+      <tr>
+         <td><input type="radio"></td>
+         <td>Displays a radio button (for selecting one of many choices)</td>
+      </tr>
+      <tr>
+         <td><input type="checkbox"></td>
+         <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+      </tr>
+      <tr>
+         <td><input type="submit"></td>
+         <td>Displays a submit button (for submitting the form)</td>
+      </tr>
+      <tr>
+         <td><input type="button"></td>
+         <td>Displays a clickable button</td>
+      </tr>
+   </table>
+
+           </div>
+           <!-- ///////////////////////////////////////////////////////////////////// -->
+           <hr>
+           <div class="panel-title">
+            Text Fields
+           </div>
+           <div class="panel-content">
+            <p>The <span>&lt;input type="text"></span> defines a single-line input field for text input.</p>
+           </div>
+           <hr>
+          <div class="panel-title">Example</div>
+           <div class="panel-code">
+            <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&nbsp;&nbsp;&lt;body&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Text input fields&lt;/h2&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;form&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/form&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Note that the form itself is not visible.&lt;/p&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Also note that the default width of text input fields is 20 characters.&lt;/p&gt;<br>
+<br>
+&nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+
+              </p>
+            </fieldset>
+           </div>
+           <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                
+                <h3>Text input fields</h3>
+
+                <form>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname" value="John"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname" value="Doe">
+                </form>
+                
+                <p>Note that the form itself is not visible.</p>
+                
+                <p>Also note that the default width of text input fields is 20 characters.</p>
+               
+                
+            </fieldset>
+          </div>
+          <!-- ////////////////////////////////////////////////////////////////// -->
+
+          <hr>
+<div class="panel-title">
+    Radio Buttons
+</div>
+<div class="panel-content">
+    <p>The <span>&lt;input type="radio">&lt;/span> defines a radio button.</p>
+    <p>Radio buttons let a user select ONE of a limited number of choices.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content"><p>A form with radio buttons:</p></div>
+        <p>
+            &lt;p&gt;Choose your favorite Web language:&lt;/p&gt;<br>
+            &lt;form&gt;<br>
+            &nbsp;&nbsp;&lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="html"&gt;HTML&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="radio" id="css" name="fav_language" value="CSS"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="css"&gt;CSS&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="radio" id="javascript" name="fav_language" value="JavaScript"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="javascript"&gt;JavaScript&lt;/label&gt;<br>
+            &lt;/form&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <h3>Radio Buttons</h3>
+        <form>
+            <p>Choose your favorite Web language:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+        <p>This is how the HTML code above will be displayed in a browser:</p>
+    </fieldset>
+</div>
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<hr>
+<div class="panel-title">
+    Checkboxes
+</div>
+<div class="panel-content">
+    <p>The <span>&lt;input type="checkbox">&lt;/span> defines a checkbox.</p>
+    <p>Checkboxes let a user select ZERO or MORE options of a limited number of choices.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content"><p>A form with checkboxes:</p></div>
+        <p>
+            &lt;form&gt;<br>
+            &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="vehicle1"&gt; I have a bike&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle2" name="vehicle2" value="Car"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="vehicle2"&gt; I have a car&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="vehicle3"&gt; I have a boat&lt;/label&gt;<br>
+            &lt;/form&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <h3>Checkboxes</h3>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+        </form>
+        <p>This is how the HTML code above will be displayed in a browser:</p>
+    </fieldset>
+</div>
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+<hr>
+<div class="panel-title">
+    The Submit Button
+</div>
+<div class="panel-content">
+    <p>The <span>&lt;input type="submit">&lt;/span> defines a button for submitting the form data to a form-handler.</p>
+    <p>The form-handler is typically a file on the server with a script for processing input data.</p>
+    <p>The form-handler is specified in the form's action attribute.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content"><p>A form with a submit button:</p></div>
+        <p>
+            &lt;form action="/action_page.php"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+            &lt;/form&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <h3>The Submit Button</h3>
+        <p>The <input type="submit"> defines a button for submitting the form data to a form-handler.</p>
+        <p>The form-handler is typically a file on the server with a script for processing input data.</p>
+        <p>The form-handler is specified in the form's action attribute.</p>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>This is how the HTML code above will be displayed in a browser:</p>
+    </fieldset>
+</div>
+<!-- ////////////////////////////////////////////////////////////// -->
+<hr>
+<div class="panel-title">
+    The Name Attribute for <span>&lt;input&gt;</span>
+</div>
+<div class="panel-content">
+    <p>Notice that each input field must have a name attribute to be submitted.</p>
+    <p>If the name attribute is omitted, the value of the input field will not be sent at all.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content"><p>This example will not submit the value of the "First name" input field:</p></div>
+        <p>
+            &lt;form action="/action_page.php"&gt;<br>
+            &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="text" id="fname" value="John"&gt;&lt;br&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+            &lt;/form&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>Same as above.</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <h3>The Name Attribute for <input></h3>
+        <p>Notice that each input field must have a name attribute to be submitted.</p>
+        <p>If the name attribute is omitted, the value of the input field will not be sent at all.</p>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Same as above.</p>
+    </fieldset>
+</div>
+
+
+  </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>HTML Form Attributes</h2>
+         
+          <hr>
+          <div class="panel-title">
+              The Action Attribute
+          </div>
+          <div class="panel-content">
+              <p>The action attribute defines the action to be performed when the form is submitted.</p>
+              <p>Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+              <p>In the example below, the form data is sent to a file called "action_page.php". This file contains a server-side script that handles the form data:</p>
+          </div>
+          <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+              <fieldset>
+                  <div class="panel-content">
+                      <p>On submit, send form data to "action_page.php":</p>
+                  </div>
+                  <p>
+                      &lt;form action="/action_page.php"&gt;<br>
+                      &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                      &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+                      &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                      &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;<br>
+                      &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+                      &lt;/form&gt;
+                  </p>
+              </fieldset>
+          </div>
+          <div class="panel-content">
+              <p>Same as above.</p>
+          </div>
+          <div class="panel-output">
+              <fieldset>
+                  <h3>The Action Attribute</h3>
+                  <p>The action attribute defines the action to be performed when the form is submitted.</p>
+                  <p>Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+                  <p>In the example below, the form data is sent to a file called "action_page.php". This file contains a server-side script that handles the form data:</p>
+                  <form action="/action_page.php">
+                      <label for="fname">First name:</label><br>
+                      <input type="text" id="fname" name="fname" value="John"><br>
+                      <label for="lname">Last name:</label><br>
+                      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                      <input type="submit" value="Submit">
+                  </form>
+                  <p>Same as above.</p>
+              </fieldset>
+          </div>
+          <!-- ///////////////////////////////////////////////////////////////////// -->
+          
+          <hr>
+          <div class="panel-title">
+              The Target Attribute
+          </div>
+          <div class="panel-content">
+              <p>The target attribute specifies where to display the response that is received after submitting the form.</p>
+              <p>The target attribute can have one of the following values:</p>
+              <p>The default value is _self which means that the response will open in the current window.</p>
+          </div>
+          <div class="table">
+            <table border="1">
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>_blank</td>
+                    <td>The response is displayed in a new window or tab</td>
+                </tr>
+                <tr>
+                    <td>_self</td>
+                    <td>The response is displayed in the current window</td>
+                </tr>
+                <tr>
+                    <td>_parent</td>
+                    <td>The response is displayed in the parent frame</td>
+                </tr>
+                <tr>
+                    <td>_top</td>
+                    <td>The response is displayed in the full body of the window</td>
+                </tr>
+                <tr>
+                    <td>framename</td>
+                    <td>The response is displayed in a named iframe</td>
+                </tr>
+            </table>
+            
+          </div>
+          <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+              <fieldset>
+                  <div class="panel-content">
+                      <p>Here, the submitted result will open in a new browser tab:</p>
+                  </div>
+                  <p>&lt;form action="/action_page.php" target="_blank"&gt;</p>
+              </fieldset>
+          </div>
+          <!-- /////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The Method Attribute
+</div>
+<div class="panel-content">
+    <p>The method attribute specifies the HTTP method to be used when submitting the form data.</p>
+    <p>The form-data can be sent as URL variables (with method="get") or as an HTTP post transaction (with method="post").</p>
+    <p>The default HTTP method when submitting form data is GET.</p>
+</div>
+<hr>
+<div class="panel-title">Example - GET</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>This example uses the GET method when submitting the form data:</p>
+        </div>
+        <p>&lt;form action="/action_page.php" method="get"&gt;</p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Example - POST</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>This example uses the POST method when submitting the form data:</p>
+        </div>
+        <p>&lt;form action="/action_page.php" method="post"&gt;</p>
+    </fieldset>
+</div>
+
+            
+          
+  </div>
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>HTML Form Elements</h2>
+    <hr>
+    <div class="panel-title"> The HTML &lt;form> Elements</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            The HTML &lt;form> element can contain one or more of the following form elements:
+
+          <div class="table">
+            <table border="1">
+                <tr>
+                    <td><code>&lt;input&gt;</code></td>
+                    <td>Defines a single-line input field for text input.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;label&gt;</code></td>
+                    <td>Defines a label for an input element.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;select&gt;</code></td>
+                    <td>Defines a dropdown list.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;textarea&gt;</code></td>
+                    <td>Defines a multiline text input control (text area).</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;button&gt;</code></td>
+                    <td>Defines a clickable button.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;fieldset&gt;</code></td>
+                    <td>Groups related form elements together.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;legend&gt;</code></td>
+                    <td>Defines a caption for a <code>&lt;fieldset&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;datalist&gt;</code></td>
+                    <td>Specifies a list of pre-defined options for an <code>&lt;input&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;output&gt;</code></td>
+                    <td>Displays the result of a calculation.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;option&gt;</code></td>
+                    <td>Defines an option in a dropdown list.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;optgroup&gt;</code></td>
+                    <td>Groups related options in a dropdown list.</td>
+                </tr>
+            </table>
+            
+          </div>
+        
+        </p>
+    </div>
+    <hr>
+    <div class="panel-title">
+        The &lt;input&gt; Element
+    </div>
+    <div class="panel-content">
+        <p>One of the most used form elements is the &lt;input&gt; element.</p>
+        <p>The &lt;input&gt; element can be displayed in several ways, depending on the type attribute.</p>
+    </div>
+    <hr>
+    <div class="panel-title">Example</div>
+    <div class="panel-code">
+        <fieldset>
+            <div class="panel-content">
+                <p><label for="fname">First name:</label></p>
+                <p>&lt;input type="text" id="fname" name="fname"&gt;</p>
+            </div>
+        </fieldset>
+    </div>
+    <div class="panel-content">
+        <p>All the different values of the type attribute are covered in the next chapter: HTML Input Types.</p>
+    </div>
+    
+        
+          <!-- //////////////////////////////////core attribute/////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;select&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;select&gt; element defines a drop-down list:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p><label for="cars">Choose a car:</label></p>
+            <p>
+                &lt;select id="cars" name="cars"&gt;<br>
+                &nbsp;&nbsp;&lt;option value="volvo"&gt;Volvo&lt;/option&gt;<br>
+                &nbsp;&nbsp;&lt;option value="saab"&gt;Saab&lt;/option&gt;<br>
+                &nbsp;&nbsp;&lt;option value="fiat"&gt;Fiat&lt;/option&gt;<br>
+                &nbsp;&nbsp;&lt;option value="audi"&gt;Audi&lt;/option&gt;<br>
+                &lt;/select&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    
+    <div class="panel-output">
+        <fieldset>
+         
+            <h2>The select Element</h2>
+
+            <p>The select element defines a drop-down list:</p>
+            
+            <form action="/action_page.php">
+              <label for="cars">Choose a car:</label>
+              <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              <input type="submit">
+            </form>
+
+        </fieldset>
+</div>
+
+          <!-- //////////////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;textarea&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;textarea&gt; element defines a multi-line input field (a text area):</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;textarea name="message" rows="10" cols="30"&gt;<br>
+                The cat was playing in the garden.<br>
+                &lt;/textarea&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+   
+    <div class="panel-output">
+        <fieldset>
+            <h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+        </fieldset>
+    </div>
+</div>
+
+
+          <!-- /////////////////////////////////////////////////////////// -->
+
+          <hr>
+<div class="panel-title">
+    The &lt;fieldset&gt; and &lt;legend&gt; Elements
+</div>
+<div class="panel-content">
+    <p>The &lt;fieldset&gt; element is used to group related data in a form.</p>
+    <p>The &lt;legend&gt; element defines a caption for the &lt;fieldset&gt; element.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form action="/action_page.php"&gt;<br>
+                &nbsp;&nbsp;&lt;fieldset&gt;<br>
+              
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+                &nbsp;&nbsp;&lt;/fieldset&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <div class="panel-output">
+        <fieldset><br><br>
+          
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </div>
+</div>
+
+          <!-- ./////////////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;button&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;button&gt; element defines a clickable button:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;button type="button" onclick="alert('Hello World!')"&gt;Click Me!&lt;/button&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <div class="panel-output">
+        <fieldset>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </fieldset>
+    </div>
+</div>
+
+          <!-- ////////////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;button&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;button&gt; element defines a clickable button:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;button type="button" onclick="alert('Hello World!')"&gt;Click Me!&lt;/button&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <div class="panel-output">
+        <fieldset>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </fieldset>
+    </div>
+</div>
+
+          <!-- /////////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;datalist&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;datalist&gt; element specifies a list of pre-defined options for an &lt;input&gt; element.</p>
+    <p>Users will see a drop-down list of the pre-defined options as they input data.</p>
+    <p>The list attribute of the &lt;input&gt; element must refer to the id attribute of the &lt;datalist&gt; element.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form action="/action_page.php"&gt;<br>
+                &nbsp;&nbsp;&lt;input list="browsers"&gt;<br>
+                &nbsp;&nbsp;&lt;datalist id="browsers"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="Internet Explorer"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="Firefox"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="Chrome"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="Opera"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="Safari"&gt;<br>
+                &nbsp;&nbsp;&lt;/datalist&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <div class="panel-output">
+        <fieldset>
+            <form action="/action_page.php">
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+          <!-- ////////////////////////////////////////////////////////// -->
+          <hr>
+<div class="panel-title">
+    The &lt;output&gt; Element
+</div>
+<div class="panel-content">
+    <p>The &lt;output&gt; element represents the result of a calculation (like one performed by a script).</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form action="/action_page.php"<br>
+                &nbsp;&nbsp;oninput="x.value=parseInt(a.value)+parseInt(b.value)"&gt;<br>
+                &nbsp;&nbsp;0<br>
+                &nbsp;&nbsp;&lt;input type="range"  id="a" name="a" value="50"&gt;<br>
+                &nbsp;&nbsp;100 +<br>
+                &nbsp;&nbsp;&lt;input type="number" id="b" name="b" value="50"&gt;<br>
+                &nbsp;&nbsp;=<br>
+                &nbsp;&nbsp;&lt;output name="x" for="a b"&gt;&lt;/output&gt;<br>
+                &nbsp;&nbsp;&lt;br&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="submit"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <div class="panel-output">
+        <fieldset>
+            <form action="/action_page.php"
+              oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+              0
+              <input type="range"  id="a" name="a" value="50">
+              100 +
+              <input type="number" id="b" name="b" value="50">
+              =
+              <output name="x" for="a b"></output>
+              <br><br>
+              <input type="submit">
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+          <!-- /////////////////////////////////////////////////////// -->
+          
+  </div>
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>HTML Input Types</h2> 
+  <hr>
+  <div class="panel-title"> HTML Input Types</div><br>
+     <div class="table">
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+    </tbody>
+</table>
+
+     </div>
+
+
+  <!-- ////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+<div class="panel-title">
+    Input Type Text
+</div>
+<div class="panel-content">
+    <p><input type="text"> defines a single-line text input field:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname">
+        </form>
+    </fieldset>
+</div>
+
+  <!-- .////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+<div class="panel-title">
+    Input Type Password
+</div>
+<div class="panel-content">
+    <p><input type="password"> defines a password field:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="username"&gt;Username:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="username" name="username"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="pwd"&gt;Password:&lt;/label&gt;&lt;br&gt;
+                &nbsp;&nbsp;&lt;input type="password" id="pwd" name="pwd"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username"><br>
+          <label for="pwd">Password:</label><br>
+          <input type="password" id="pwd" name="pwd">
+        </form>
+    </fieldset>
+</div>
+
+  <!-- /////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+<div class="panel-title">
+    Input Type Submit
+</div>
+<div class="panel-content">
+    <p><input type="submit"> defines a button for submitting form data to a form-handler.</p>
+    <p>The form-handler is typically a server page with a script for processing input data.</p>
+    <p>The form-handler is specified in the form's action attribute:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form action="/action_page.php"&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</div>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+<div class="panel-title">
+    Input Type Reset
+</div>
+<div class="panel-content">
+    <p><input type="reset"> defines a reset button that will reset all form values to their default values:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form action="/action_page.php"&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+                &nbsp;&nbsp;&lt;input type="reset" value="Reset"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+</div>
+
+  <!-- /////////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+  <div class="panel-title">
+      Input Type Radio
+  </div>
+  <div class="panel-content">
+      <p><input type="radio"> defines a radio button.</p>
+      <p>Radio buttons let a user select ONLY ONE of a limited number of choices:</p>
+  </div>
+  <hr>
+  <div class="panel-title">Example</div>
+  <div class="panel-code">
+      <fieldset>
+          <div class="panel-content">
+              <p><p>Choose your favorite Web language:</p></p>
+              <p>
+                  &lt;form&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="html"&gt;HTML&lt;/label&gt;&lt;br&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="radio" id="css" name="fav_language" value="CSS"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="css"&gt;CSS&lt;/label&gt;&lt;br&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="radio" id="javascript" name="fav_language" value="JavaScript"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="javascript"&gt;JavaScript&lt;/label&gt;<br>
+                  &lt;/form&gt;
+              </p>
+          </div>
+      </fieldset>
+  </div>
+  <div class="panel-content">
+      <p>This is how the HTML code above will be displayed in a browser:</p>
+  </div>
+  <div class="panel-output">
+      <fieldset>
+          <form>
+            <p>Choose your favorite Web language:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+          </form>
+      </fieldset>
+  </div>
+  
+  <hr>
+  <div class="panel-title">
+      Input Type Checkbox
+  </div>
+  <div class="panel-content">
+      <p><input type="checkbox"> defines a checkbox.</p>
+      <p>Checkboxes let a user select ZERO or MORE options of a limited number of choices.</p>
+  </div>
+  <hr>
+  <div class="panel-title">Example</div>
+  <div class="panel-code">
+      <fieldset>
+          <div class="panel-content">
+              <p>
+                  &lt;form&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="vehicle1"&gt; I have a bike&lt;/label&gt;&lt;br&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle2" name="vehicle2" value="Car"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="vehicle2"&gt; I have a car&lt;/label&gt;&lt;br&gt;<br>
+                  &nbsp;&nbsp;&lt;input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"&gt;<br>
+                  &nbsp;&nbsp;&lt;label for="vehicle3"&gt; I have a boat&lt;/label&gt;<br>
+                  &lt;/form&gt;
+              </p>
+          </div>
+      </fieldset>
+  </div>
+  <div class="panel-content">
+      <p>This is how the HTML code above will be displayed in a browser:</p>
+  </div>
+  <div class="panel-output">
+      <fieldset>
+          <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+          </form>
+      </fieldset>
+  </div>
+  
+  <hr>
+  <div class="panel-title">
+      Input Type Button
+  </div>
+  <div class="panel-content">
+      <p><input type="button"> defines a button:</p>
+  </div>
+  <hr>
+  <div class="panel-title">Example</div>
+  <div class="panel-code">
+      <fieldset>
+          <div class="panel-content">
+              <p><input type="button" onclick="alert('Hello World!')" value="Click Me!"></p>
+          </div>
+      </fieldset>
+  </div>
+  <div class="panel-content">
+      <p>This is how the HTML code above will be displayed in a browser:</p>
+  </div>
+  <div class="panel-output">
+      <fieldset>
+          <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+      </fieldset>
+  </div>
+  
+  <!-- Continue with the rest of the input types as requested -->
+  
+  
+
+  <!-- /////////////////////////////////////////////////////////////////////////////// -->
+  <hr>
+<div class="panel-title">
+    Input Type Range
+</div>
+<div class="panel-content">
+    <p>The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the min, max, and step attributes:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="vol"&gt;Volume (between 0 and 50):&lt;/label&gt;<br>
+                &nbsp;&nbsp;&lt;input type="range" id="vol" name="vol" min="0" max="50"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="vol">Volume (between 0 and 50):</label><br>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+        </form>
+    </fieldset>
+</div>
+
+<hr>
+<div class="panel-title">
+    Input Type Search
+</div>
+<div class="panel-content">
+    <p>The <input type="search"> is used for search fields (a search field behaves like a regular text field).</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="gsearch"&gt;Search Google:&lt;/label&gt;<br>
+                &nbsp;&nbsp;&lt;input type="search" id="gsearch" name="gsearch"&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="gsearch">Search Google:</label><br>
+          <input type="search" id="gsearch" name="gsearch">
+        </form>
+    </fieldset>
+</div>
+
+<!-- Continue with the rest of the input types as requested -->
+
+
+  <!-- ////////////////////////////////////////////////////////////////////////////// -->
+                   
+ </div>
+ <!-- ///////////////////////////////////////panel four ends ./////////////////////////////// -->
+  <div class="panel" id="five-panel">
+    <h2>HTML Input Attributes</h2>
+    <hr>
+<div class="panel-title">
+    The value Attribute
+</div>
+<div class="panel-content">
+    <p>The input value attribute specifies an initial value for an input field:</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe">
+        </form>
+    </fieldset>
+</div>
+
+<hr>
+<div class="panel-title">
+    The readonly Attribute
+</div>
+<div class="panel-content">
+    <p>The input readonly attribute specifies that an input field is read-only.</p>
+    <p>A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).</p>
+    <p>The value of a read-only input field will be sent when submitting the form!</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John" readonly&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John" readonly><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe">
+        </form>
+    </fieldset>
+</div>
+
+<!-- Continue with the rest of the attributes as requested -->
+<hr>
+<div class="panel-title">
+    The disabled Attribute
+</div>
+<div class="panel-content">
+    <p>The input disabled attribute specifies that an input field should be disabled.</p>
+    <p>A disabled input field is unusable and un-clickable.</p>
+    <p>The value of a disabled input field will not be sent when submitting the form!</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" value="John" disabled&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John" disabled><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe">
+        </form>
+    </fieldset>
+</div>
+
+<hr>
+<div class="panel-title">
+    The size Attribute
+</div>
+<div class="panel-content">
+    <p>The input size attribute specifies the visible width, in characters, of an input field.</p>
+    <p>The default value for size is 20.</p>
+    <p>Note: The size attribute works with the following input types: text, search, tel, url, email, and password.</p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>
+                &lt;form&gt;<br>
+                &nbsp;&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="fname" name="fname" size="50"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;label for="pin"&gt;PIN:&lt;/label&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&lt;input type="text" id="pin" name="pin" size="4"&gt;&lt;br&gt;<br>
+                &lt;/form&gt;
+            </p>
+        </div>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This is how the HTML code above will be displayed in a browser:</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" size="50"><br>
+          <label for="pin">PIN:</label><br>
+          <input type="text" id="pin" name="pin" size="4">
+        </form>
+    </fieldset>
+</div>
+
+<!-- Continue with the rest of the attributes as requested -->
+
+
+<!-- ////////////////////////////////////////////////////////// -->
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<footer style="background-color: black;">
+
+<p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+<div class="foot">
+   <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+    <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+</div>
+<h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

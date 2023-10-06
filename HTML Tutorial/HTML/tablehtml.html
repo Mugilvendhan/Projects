@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorhtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+               
+              </li>
+              
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Tables</label>
+  <label class="tab" id="two-tab" for="two">Attribute</label>
+  <label class="tab" id="three-tab" for="three">Background</label>
+  <label class="tab" id="four-tab" for="four">Caption</label>
+ <label class="tab" id="five-tab" for="five">Nested</label>
+  
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML - Tables</h2>  
+    <hr>
+    <div class="panel-title">Table </div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            The HTML tables allow web authors to arrange data like <span>text, images, links, other tables,</span> etc. 
+            into rows and columns of cells. <br>
+
+The HTML tables are created using the &lt;table> tag in which the &lt;tr> tag is used to create table rows and &lt;td> tag is 
+    used to create data cells. The elements under &lt;td> are regular and left aligned by default
+        </p>
+        <hr>
+              <div class="panel-title">Example</div>
+              <div class="panel-code">
+               <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+                  <p>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                       &nbsp;&nbsp;&lt;head&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Tables&lt;/title&gt;<br>
+                       &nbsp;&nbsp;&lt;/head&gt;<br>
+                       &nbsp;&nbsp;&lt;body&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1"&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1, Column 2&lt;/td&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2, Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2, Column 2&lt;/td&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+                       &nbsp;&nbsp;&lt;/body&gt;<br>
+                    &lt;/html&gt;
+                   
+                   
+                    
+    
+    
+                  </p>
+                </fieldset>  
+              </div>
+              <div class="panel-content">
+                <p>This will produce the following result −</p>
+              </div>
+              <div class="panel-output">
+                <fieldset>
+                
+                    <table border = "1">
+                        <tr>
+                           <td>Row 1, Column 1</td>
+                           <td>Row 1, Column 2</td>
+                        </tr>
+                        
+                        <tr>
+                           <td>Row 2, Column 1</td>
+                           <td>Row 2, Column 2</td>
+                        </tr>
+                     </table>
+                 
+                
+                </fieldset>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////// -->    
+        <hr>
+    <div class="panel-title">Table Heading</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            Table heading can be defined using &lt;th> tag. This tag will be put to replace &lt;td> tag,
+                 which is used to represent actual data cell. Normally you will put your top row as table heading as 
+                 shown below, otherwise you can use &lt;th>
+                 element in any row. Headings, which are defined in &lt;th> tag are centered and bold by default.    
+        
+        </p>
+        <hr>
+              <div class="panel-title">Example</div>
+              <div class="panel-code">
+               <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+                  <p>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                       &nbsp;&nbsp;&lt;head&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Header&lt;/title&gt;<br>
+                       &nbsp;&nbsp;&lt;/head&gt;<br>
+                       &nbsp;&nbsp;&lt;body&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1"&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Salary&lt;/th&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Ramesh Raman&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;5000&lt;/td&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Shabbir Hussein&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;7000&lt;/td&gt;<br>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+                       &nbsp;&nbsp;&lt;/body&gt;<br>
+                    &lt;/html&gt;
+                    
+                    
+    
+    
+                  </p>
+                </fieldset>  
+              </div>
+              <div class="panel-content">
+                <p>This will produce the following result −</p>
+              </div>
+              <div class="panel-output">
+                <fieldset>
+                
+                    <table border = "1">
+                        <tr>
+                           <th>Name</th>
+                           <th>Salary</th>
+                        </tr>
+                        <tr>
+                           <td>Ramesh Raman</td>
+                           <td>5000</td>
+                        </tr>
+                        
+                        <tr>
+                           <td>Shabbir Hussein</td>
+                           <td>7000</td>
+                        </tr>
+                     </table>
+                 
+                
+                </fieldset>
+            </div>    
+  </div>
+  </div>
+  </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>Attribute</h2>
+          <hr>
+    <div class="panel-title">Cellpadding and Cellspacing Attributes</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            There are two attributes called cellpadding and cellspacing which you will use to
+             adjust the white space in your table cells. The cellspacing attribute defines space between table cells, 
+            while cellpadding represents the distance between cell borders and the content within a cell.    
+        
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+   &nbsp;&nbsp;&lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Cellpadding&lt;/title&gt;<br>
+   &nbsp;&nbsp;&lt;/head&gt;<br>
+   &nbsp;&nbsp;&lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" cellpadding="5" cellspacing="5"&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Salary&lt;/th&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Ramesh Raman&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;5000&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Shabbir Hussein&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;7000&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+   &nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+
+
+                
+
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <table border = "1" cellpadding = "5" cellspacing = "5">
+                    <tr>
+                       <th>Name</th>
+                       <th>Salary</th>
+                    </tr>
+                    <tr>
+                       <td>Ramesh Raman</td>
+                       <td>5000</td>
+                    </tr>
+                    <tr>
+                       <td>Shabbir Hussein</td>
+                       <td>7000</td>
+                    </tr>
+                 </table>
+                
+              
+                
+            </fieldset>
+          </div>
+          <!-- ////////////////////////// -->
+          <hr>
+          <div class="panel-title">Colspan and Rowspan Attributes</div><br>
+          <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+          <div class="panel-content">
+              <p style="text-align:justify;">
+                You will use <span>colspan attribute</span> if you want to merge two or more columns into a single column. 
+                Similar way you will use <span>rowspan</span> if you want to merge two or more rows.
+              </p>
+          </div>
+              <hr>
+                <div class="panel-title">Example</div>
+                <div class="panel-code">
+                 <fieldset>
+                  <div class="panel-content"><p>Sample Code</p></div>
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                           &nbsp;&nbsp;&lt;head&gt;<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Colspan/Rowspan&lt;/title&gt;<br>
+                           &nbsp;&nbsp;&lt;/head&gt;<br>
+                           &nbsp;&nbsp;&lt;body&gt;<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1"&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 3&lt;/th&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 2&lt;/td&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 3&lt;/td&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 2&lt;/td&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 3&lt;/td&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt;<br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+                           &nbsp;&nbsp;&lt;/body&gt;<br>
+                        &lt;/html&gt;
+                        
+      
+      
+                      
+      
+      
+      
+      
+                    </p>
+                  </fieldset>  
+                </div>
+                <div class="panel-content">
+                  <p>This will produce the following result −</p>
+                </div>
+                <div class="panel-output">
+                  <fieldset>
+                    <table border = "1">
+                        <tr>
+                           <th>Column 1</th>
+                           <th>Column 2</th>
+                           <th>Column 3</th>
+                        </tr>
+                        <tr>
+                           <td rowspan = "2">Row 1 Cell 1</td>
+                           <td>Row 1 Cell 2</td>
+                           <td>Row 1 Cell 3</td>
+                        </tr>
+                        <tr>
+                           <td>Row 2 Cell 2</td>
+                           <td>Row 2 Cell 3</td>
+                        </tr>
+                        <tr>
+                           <td colspan = "3">Row 3 Cell 1</td>
+                        </tr>
+                     </table>
+               
+                      
+                    
+                      
+                  </fieldset>
+                </div>
+   
+  </div>
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>Tables Backgrounds</h2>
+    <hr>
+    <div class="panel-title"> Background Color</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            You can set table background using one of the following two ways −<br>
+
+<span>bgcolor attribute</span> − You can set background color for whole table or just for one cell. <br>
+
+<span>background attribute</span> − You can set background image for whole table or just for one cell. <br>
+
+You can also set border color also using bordercolor attribute.
+        
+        
+        
+        
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+   &nbsp;&nbsp;&lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Background&lt;/title&gt;<br>
+   &nbsp;&nbsp;&lt;/head&gt;<br>
+   &nbsp;&nbsp;&lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" bordercolor="green" bgcolor="yellow"&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 3&lt;/th&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 2&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 3&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 2&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 3&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+   &nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <table border = "1" bordercolor = "green" bgcolor = "yellow">
+                    <tr>
+                       <th>Column 1</th>
+                       <th>Column 2</th>
+                       <th>Column 3</th>
+                    </tr>
+                    <tr>
+                       <td rowspan = "2">Row 1 Cell 1</td>
+                       <td>Row 1 Cell 2</td>
+                       <td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                       <td>Row 2 Cell 2</td>
+                       <td>Row 2 Cell 3</td>
+                    </tr>
+                    <tr>
+                       <td colspan = "3">Row 3 Cell 1</td>
+                    </tr>
+                 </table>
+               
+
+            </fieldset>
+          </div>
+          <!-- ///////////////////////////////////////////////////////////////// -->
+          <hr>
+    <div class="panel-title"> Background Imagr</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            Here is an example of using <span>background attribute</span>. Here we will use an image available in /images directory.
+        
+        
+        
+        
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                   &nbsp;&nbsp;&lt;head&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Background&lt;/title&gt;<br>
+                   &nbsp;&nbsp;&lt;/head&gt;<br>
+                   &nbsp;&nbsp;&lt;body&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" bordercolor="green" background="/images/test.png"&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 3&lt;/th&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 2&lt;/td&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Cell 3&lt;/td&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 2&lt;/td&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Cell 3&lt;/td&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+                   &nbsp;&nbsp;&lt;/body&gt;<br>
+                &lt;/html&gt;
+                
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <table border = "1" bordercolor = "green" background = "html.1.gif">
+                    <tr>
+                       <th>Column 1</th>
+                       <th>Column 2</th>
+                       <th>Column 3</th>
+                    </tr>
+                    <tr>
+                       <td rowspan = "2">Row 1 Cell 1</td>
+                       <td>Row 1 Cell 2</td><td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                       <td>Row 2 Cell 2</td>
+                       <td>Row 2 Cell 3</td>
+                    </tr>
+                    <tr>
+                       <td colspan = "3">Row 3 Cell 1</td>
+                    </tr>
+                 </table>
+               
+
+            </fieldset>
+          </div>
+          
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>HTML - Image Links</h2> 
+  <hr>
+  <div class="panel-title">Set Image Link</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            The <span> caption tag</span> will serve as a title or explanation for the table and it shows up at the top of the table. 
+                            This tag is deprecated in newer version of HTML/XHTML.
+                        
+                        
+                        
+                        </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                    &lt;!DOCTYPE html&gt;<br>
+                                    &lt;html&gt;<br>
+                                       &nbsp;&nbsp;&lt;head&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table Caption&lt;/title&gt;<br>
+                                       &nbsp;&nbsp;&lt;/head&gt;<br>
+                                       &nbsp;&nbsp;&lt;body&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" width="100%"&gt;<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;caption&gt;This is the caption&lt;/caption&gt;<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;row 1, column 1&lt;/td&gt;<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;row 1, column 2&lt;/td&gt;<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;row 2, column 1&lt;/td&gt;<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;row 2, column 2&lt;/td&gt;<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+                                       &nbsp;&nbsp;&lt;/body&gt;<br>
+                                    &lt;/html&gt;
+                                    
+                                    
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                               
+                                
+                                <table border = "1" width = "100%">
+                                    <caption>This is the caption</caption>
+                                    
+                                    <tr>
+                                       <td>row 1, column 1</td><td>row 1, columnn 2</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                       <td>row 2, column 1</td><td>row 2, columnn 2</td>
+                                    </tr>
+                                 </table>
+
+                              </fieldset>
+                            </div>
+                            
+ </div>
+ <!-- ///////////////////////////////////////panel four ends ./////////////////////////////// -->
+  <div class="panel" id="five-panel">
+    <h2>Nested Tables</h2>
+    <hr>
+    <div class="panel-title">Nesting two Tables</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        You can use one table inside another table.
+         Not only tables you can use almost all the tags inside table <span>data tag &lt;td></span>.
+    </p>
+</div>
+    
+    <hr>
+    <div class="panel-title">Example</div>
+    <div class="panel-code">
+        <fieldset>
+            <div class="panel-content">
+                <p>Sample Code</p>
+            </div>
+            <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+   &nbsp;&nbsp;&lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Table&lt;/title&gt;<br>
+   &nbsp;&nbsp;&lt;/head&gt;<br>
+   &nbsp;&nbsp;&lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" width="100%"&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" width="100%"&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Name&lt;/th&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Salary&lt;/th&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Ramesh Raman&lt;/td&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;5000&lt;/td&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Shabbir Hussein&lt;/td&gt;<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;7000&lt;/td&gt;<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>
+   &nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+
+            </p>
+        </fieldset>
+    </div>
+    <div class="panel-content">
+        <p>This will produce the following result −</p>
+    </div>
+    <div class="panel-output">
+        <fieldset>
+            <table border = "1" width = "100%">
+         
+                <tr>
+                   <td>
+                      <table border = "1" width = "100%">
+                         <tr>
+                            <th>Name</th>
+                            <th>Salary</th>
+                         </tr>
+                         <tr>
+                            <td>Ramesh Raman</td>
+                            <td>5000</td>
+                         </tr>
+                         <tr>
+                            <td>Shabbir Hussein</td>
+                            <td>7000</td>
+                         </tr>
+                      </table>
+                   </td>
+                </tr>
+                
+             </table>
+
+
+        </fieldset>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<footer style="background-color: black;">
+
+<p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+<div class="foot">
+   <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+    <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+</div>
+<h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

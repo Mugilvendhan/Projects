@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basichtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+                
+              </li>
+              
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Tags</label>
+  <label class="tab" id="two-tab" for="two">Elements</label>
+  <label class="tab" id="three-tab" for="three">Attribute</label>
+  <label class="tab" id="four-tab" for="four">Formatting</label>
+ <label class="tab" id="five-tab" for="five">Comments</label>
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML - Basic Tags</h2>  
+    <hr>
+    <div class="panel-title">Heading Tags</div><br>
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          Any document starts with a heading. You can use different sizes for your headings. 
+          HTML also has six levels of headings, which use the elements <span>&lt;h1>, &lt;h2>, &lt;h3>, &lt;h4>, &lt;h5>, and &lt;h6></span>. 
+            While displaying any heading, browser adds one line before and one line after that heading.
+        </p>
+    </div>
+
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&nbsp;&nbsp;&lt;title&gt;Heading Example&lt;/title&gt;<br>
+&lt;/head&gt;<br><br>
+
+&lt;body&gt;<br>
+&nbsp;&nbsp;&lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+&nbsp;&nbsp;&lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+&nbsp;&nbsp;&lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+&nbsp;&nbsp;&lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+&nbsp;&nbsp;&lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+&nbsp;&nbsp;&lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+&lt;/body&gt;<br><br>
+&lt;/html&gt; 
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+              <h1>This is heading 1</h1><br>
+      <h2 style="text-align: left;">This is heading 2</h2><br>
+      <h3>This is heading 3</h3><br>
+      <h4>This is heading 4</h4><br>
+      <h5>This is heading 5</h5><br>
+      <h6>This is heading 6</h6><br>
+            </fieldset>
+          </div>
+          <hr>
+          <div class="panel-title">Paragraph Tag</div><br>
+          <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+          <div class="panel-content">
+              <p style="text-align:justify;">
+                The <span>&lt;p> tag</span> offers a way to structure your text into different paragraphs. 
+                  Each paragraph of text should go in between an <span>opening &lt;p></span> and a <span>closing &lt;/p></span>
+                   tag as shown below in the example −
+              </p>
+          </div>
+      
+              <hr>
+                <div class="panel-title">Example</div>
+                <div class="panel-code">
+                 <fieldset>
+                  <div class="panel-content"><p>Sample Code</p></div>
+                    <p>
+                      &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br><br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Paragraph Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br><br>
+
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Here is a first paragraph of text.&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Here is a second paragraph of text.&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Here is a third paragraph of text.&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br><br>
+
+&lt;/html&gt; 
+
+                    </p>
+                  </fieldset>  
+                </div>
+                <div class="panel-content">
+                  <p>This will produce the following result −</p>
+                </div>
+                <div class="panel-output">
+                  <fieldset>
+                    <p>Here is a first paragraph of text.</p>
+                    <p>Here is a second paragraph of text.</p>
+                    <p>Here is a third paragraph of text.</p>
+                  </fieldset>
+                </div>
+
+
+                <!-- linebreak -->
+                <hr>
+                <div class="panel-title">Line Break Tag</div><br>
+                <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                <div class="panel-content">
+                    <p style="text-align:justify;">
+                      Whenever you use the <span>< br /></span> element, anything following it starts from the <span>next line</span>. 
+                      This tag is an example of an <span>empty element</span>, where you do not need opening and closing tags,
+                       as there is nothing to go in between them. <br>
+                    The <br /> tag has a space between the characters br and the forward slash. 
+                    If you omit this space, older browsers will have trouble rendering the line break,
+                     while if you miss the forward slash character and just use &lt;br> it is <span>not valid in XHTML</span>.
+                    </p>
+                </div>
+            
+                    <hr>
+                      <div class="panel-title">Example</div>
+                      <div class="panel-code">
+                       <fieldset>
+                        <div class="panel-content"><p>Sample Code</p></div>
+                          <p>
+                            &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Line Break Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br>
+
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hello&lt;br /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You delivered your assignment on time.&lt;br /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks&lt;br /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mahnaz&lt;/p&gt;<br />
+&nbsp;&nbsp;&lt;/body&gt;<br>
+
+&lt;/html&gt; 
+
+      
+                          </p>
+                        </fieldset>  
+                      </div>
+                      <div class="panel-content">
+                        <p>This will produce the following result −</p>
+                      </div>
+                      <div class="panel-output">
+                        <fieldset>
+                          <p>Hello<br />
+                            You delivered your assignment ontime.<br />
+                            Thanks<br />
+                            Mahnaz</p>
+                        </fieldset>
+                      </div>
+                      <!-- centering content -->
+                      <hr>
+                <div class="panel-title">Centering Content</div><br>
+                <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                <div class="panel-content">
+                    <p style="text-align:justify;">
+                      You can use <span> &lt;center></span> tag to put any <span>content in the center of the page</span> or any table cell.</p>
+                </div>
+            
+                    <hr>
+                      <div class="panel-title">Example</div>
+                      <div class="panel-code">
+                       <fieldset>
+                        <div class="panel-content"><p>Sample Code</p></div>
+                          <p>
+                            &lt;!DOCTYPE html&gt;<br>
+                            &lt;html&gt;<br><br>
+                            
+                            &nbsp;&nbsp;&lt;head&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Centering Content Example&lt;/title&gt;<br>
+                            &nbsp;&nbsp;&lt;/head&gt;<br><br>
+                              
+                            &nbsp;&nbsp;&lt;body&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This text is not in the center.&lt;/p&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div style="text-align: center;"&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This text is in the center.&lt;/p&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                            &nbsp;&nbsp;&lt;/body&gt;<br><br>
+                              
+                            &lt;/html&gt;
+                            
+
+      
+                          </p>
+                        </fieldset>  
+                      </div>
+                      <div class="panel-content">
+                        <p>This will produce the following result −</p>
+                      </div>
+                      <div class="panel-output">
+                        <fieldset>
+                          <p>This text is not in the center.</p>
+      
+                          <center>
+                             <p>This text is in the center.</p>
+                          </center>
+                        </fieldset>
+                      </div>
+                      <!-- horizontal////////////////////////////////////////////////////////////////////////////////// -->
+
+                      <hr>
+                      <div class="panel-title">Horizontal Line</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            Horizontal lines are used to <span>visually break-up</span> sections of a document. 
+                            The <span>&lt;hr></span> tag creates a line from the current position in the document to the right 
+                            margin and breaks the line accordingly. <br>
+                           For example, you may want to give a line between two paragraphs as in the given example below −  
+                          </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                  &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br><br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Horizontal Line Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br><br>
+	
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is paragraph one and should be on top&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;hr /&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is paragraph two and should be at bottom&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br><br>
+	
+&lt;/html&gt;
+
+                              
+            
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                                <p>This is paragraph one and should be on top</p>
+      <hr />
+      <p>This is paragraph two and should be at bottom</p>
+                              </fieldset>
+                            </div>
+ <!-- ////////////////////////formating pre tag /////////////////////////////-->
+ <hr>
+                      <div class="panel-title">Preserve Formatting</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            Sometimes, you want your text to follow the <span>exact format</span> of how it 
+                            is written in the HTML document. In these cases, you can use the <span>preformatted tag &lt;pre></span>.
+
+                              Any text between the <span>opening &lt;pre></span> tag and the <span>closing &lt;/pre></span> tag will preserve the formatting of the source document. 
+                          </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                  &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Preserve Formatting Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br><br>
+	
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;pre&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function testFunction( strText ){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert (strText)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/pre&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br><br>
+	
+&lt;/html&gt;
+
+
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                                <pre style="text-align: left;">
+                                  function testFunction( strText ){
+                                     alert (strText)
+                                  }
+                               </pre>
+
+                              </fieldset>
+                            </div>
+   </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>HTML - Elements</h2>
+          <hr>
+    <div class="panel-title">Elements</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          An HTML element is defined by a starting tag. If the element contains other content,
+           it ends with a closing tag, where the element name is preceded by a forward slash as shown below with few tags −  
+        </p>
+    </div>
+    <div class="table">
+      <table border="1">
+        <tr>
+          <th>Start Tag</th>
+          <th>Content</th>
+          <th>End Tag</th>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>This is paragraph content.</td>
+          <td>&lt;/p&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt;</td>
+          <td>This is heading content.</td>
+          <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>This is division content.</td>
+          <td>&lt;/div&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;br /&gt;</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+    </div>
+    <hr>
+    <div class="panel-title">HTML Tag vs. Element</div><br>
+    <div class="panel-content">
+      <p style="text-align:justify;">
+        An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag. <br>
+
+        For example, &lt;p> is starting tag of a paragraph and &lt;/p> is closing tag of the same paragraph but &lt;p>This is paragraph&lt;/p> is a paragraph element.
+
+      </p>
+    </div>
+    <!-- ////////////////////////////nested element/////////////////////// -->
+    <hr>
+    <div class="panel-title">Nested HTML Elements</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          It is very much allowed to keep one HTML element inside another HTML element −  
+        
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br><br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Nested Elements Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br><br>
+	
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;This is &lt;i&gt;italic&lt;/i&gt; heading&lt;/h1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is &lt;u&gt;underlined&lt;/u&gt; paragraph&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br><br>
+	
+&lt;/html&gt;
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+              <h1>This is <i>italic</i> heading</h1>
+      <p>This is <u>underlined</u> paragraph</p>
+            </fieldset>
+          </div>
+   
+  </div>
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>HTML - Attributes</h2>
+    <hr>
+    <div class="panel-title">Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          The name is the property you want to set. For example,
+           the <span>paragraph &lt;p> element</span> in the example carries an attribute whose name is align, 
+            which you can use to indicate the alignment of paragraph on the page. <br>
+
+            The value is what you want the value of the property to be set and always put within quotations.
+             The below example shows three possible values of align attribute: <span>left, center and right</span>.  
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br><br>
+
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Align Attribute Example&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br><br>
+	
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p align="left"&gt;This is left aligned&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p align="center"&gt;This is center aligned&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p align="right"&gt;This is right aligned&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br><br>
+	
+&lt;/html&gt;
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+              <p align = "left">This is left aligned</p> 
+              <p align = "center">This is center aligned</p> 
+              <p align = "right">This is right aligned</p>
+
+            </fieldset>
+          </div>
+          <!-- //////////////////////////////////core attribute/////////////////////////////// -->
+          <hr>
+    <div class="panel-title">Core Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          <li>Id</li> 
+          <li>Title</li>
+          <li>Class</li>
+          <li>Style</li>
+        </p>
+    </div>
+
+          <!-- ///////////////////////////////////////////////////////////////id.///////////////////// -->
+    <hr>
+    <div class="panel-title">ID Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          
+          The id attribute of an HTML tag can be used to uniquely identify any element within an HTML page.
+           There are two primary reasons that you might want to use an id attribute on an element −
+          
+          
+          
+          </p>
+    </div>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;p id = "html">This para explains what is HTML&lt;/p> <br>
+                &lt;p id = "css">This para explains what is Cascading Style Sheet&lt;/p>
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <!-- ////////////////////////////title/////////////////////////// -->
+          <hr>
+    <div class="panel-title">Title Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          The title attribute gives a suggested title for the element.
+           They syntax for the title attribute is similar as explained for id attribute −<br>
+The behavior of this attribute will depend upon the element that carries it, 
+although it is often displayed as a tooltip when cursor comes over the element or while the element is loading.  
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br><br>
+                
+                &nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;The title Attribute Example&lt;/title&gt;<br>
+                &nbsp;&nbsp;&lt;/head&gt;<br><br>
+                  
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;h3 title="Hello HTML!"&gt;Titled Heading Tag Example&lt;/h3&gt;<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br><br>
+                  
+                &lt;/html&gt;
+                
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+              <h3 title = "Hello HTML!">Titled Heading Tag Example</h3>
+
+            </fieldset>
+          </div>
+          <!-- /////////////////////class.////////////////////////// -->
+          <hr>
+          <div class="panel-title">Class Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+          The <span>class Attribute</span> is used to associate an element with a style sheet, and specifies the class of element. 
+          You will learn more about the use of the class attribute when you will learn Cascading Style Sheet (CSS). So for now you can avoid it. <br>
+
+The value of the attribute may also be a space-separated list of class names. For example −
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                class = "className1 className2 className3"
+              </p>
+            </fieldset>  
+          </div>
+          <!-- ///////////////////////style/////////////////////// -->
+          <hr>
+          <div class="panel-title">Style Attribute</div><br>
+          <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+          <div class="panel-content">
+              <p style="text-align:justify;">
+                The style attribute allows you to specify Cascading Style Sheet (CSS) <span> rules within the element</span>.
+
+ 
+              </p>
+          </div>
+              <hr>
+                <div class="panel-title">Example</div>
+                <div class="panel-code">
+                 <fieldset>
+                  <div class="panel-content"><p>Sample Code</p></div>
+                    <p>
+                      &lt;!DOCTYPE html&gt;<br>
+                      &lt;html&gt;<br><br>
+                      
+                      &nbsp;&nbsp;&lt;head&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;The style Attribute&lt;/title&gt;<br>
+                      &nbsp;&nbsp;&lt;/head&gt;<br><br>
+                        
+                      &nbsp;&nbsp;&lt;body&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;p style="font-family: arial; color: #FF0000;"&gt;Some text...&lt;/p&gt;<br>
+                      &nbsp;&nbsp;&lt;/body&gt;<br><br>
+                        
+                      &lt;/html&gt;
+                      
+      
+      
+                    </p>
+                  </fieldset>  
+                </div>
+                <div class="panel-content">
+                  <p>This will produce the following result −</p>
+                </div>
+                <div class="panel-output">
+                  <fieldset>
+                    <p style = "font-family:arial; color:#FF0000;">Some text...</p>
+      
+                  </fieldset>
+                </div>
+                <!-- ////////////////////////////////Inter -->
+                <hr>
+                <div class="panel-title">Internationalization Attributes</div><br>
+                <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                <div class="panel-content">
+                    <p style="text-align:justify;">
+                      <li>dir</li> 
+                      <li>lang</li>
+                      <li>Xml:lang</li>
+                    </p>
+                </div>
+                <!-- /////////////dir/////////////// -->
+                <hr>
+                <div class="panel-title">dir Attribute</div><br>
+                <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                <div class="panel-content">
+                    <p style="text-align:justify;">
+                      The dir attribute allows you to indicate to the browser
+                       about the direction in which the text should flow.
+                        The dir attribute can take one of two values, as you can see in the table that follows −
+
+
+       
+                    </p>
+                    <div class="table">
+                      <table border="1">
+                        <tr>
+                          <th>Value</th>
+                          <th>Meaning</th>
+                        </tr>
+                        <tr>
+                          <td>ltr</td>
+                          <td>Left to right (the default value)</td>
+                        </tr>
+                        <tr>
+                          <td>rtl</td>
+                          <td>Right to left (for languages such as Hebrew or Arabic that are read right to left)</td>
+                        </tr>
+                      </table>
+                      
+                    </div>
+                    <!-- //////////////////////lang///////////////// -->
+                    <hr>
+          <div class="panel-title">lang Attribute</div><br>
+          <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+          <div class="panel-content">
+              <p style="text-align:justify;">
+                The <span>lang attribute</span> allows you to indicate the main language used in a document, 
+                but this attribute was kept in HTML only for backwards compatibility with earlier versions of HTML. 
+                This attribute has been replaced by the xml:lang attribute in new XHTML documents. <br>
+
+The values of the lang attribute are ISO-639 standard two-character language codes. 
+Check HTML <span>Language Codes: ISO 639</span> for a complete list of language codes.
+              </p>
+          </div>
+              <hr>
+                <div class="panel-title">Example</div>
+                <div class="panel-code">
+                 <fieldset>
+                  <div class="panel-content"><p>Sample Code</p></div>
+                    <p>
+                      &lt;!DOCTYPE html&gt;<br>
+                      &lt;html lang="en"&gt;<br>
+                      
+                      &nbsp;&nbsp;&lt;head&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;English Language Page&lt;/title&gt;<br>
+                      &nbsp;&nbsp;&lt;/head&gt;<br>
+                      
+                      &nbsp;&nbsp;&lt;body&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;This page is using English Language<br>
+                      &nbsp;&nbsp;&lt;/body&gt;<br>
+                      
+                      &lt;/html&gt;
+                      
+                      
+      
+      
+                    </p>
+                  </fieldset>  
+                </div>
+                <div class="panel-content">
+                  <p>This will produce the following result −</p>
+                </div>
+                <div class="panel-output">
+                  <fieldset>
+                    <p>This page is using English Language</p>
+      
+                  </fieldset>
+                </div>
+                <!-- ////////////////xml//////////////// -->
+                <hr>
+                <div class="panel-title">Xml-lang Attribute</div><br>
+                <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                <div class="panel-content">
+                    <p style="text-align:justify;">
+                      The xml:lang attribute is the <span>XHTML replacement</span> for the lang attribute. 
+                      The value of the xml:lang attribute should be an ISO-639 country code as mentioned in previous section.
+
+                    </p>
+                    <div class="table">
+                      <table border="1">
+                        <tr>
+                          <th>Attribute</th>
+                          <th>Options</th>
+                          <th>Function</th>
+                        </tr>
+                        <tr>
+                          <td>align</td>
+                          <td>right, left, center</td>
+                          <td>Horizontally aligns tags</td>
+                        </tr>
+                        <tr>
+                          <td>valign</td>
+                          <td>top, middle, bottom</td>
+                          <td>Vertically aligns tags within an HTML element</td>
+                        </tr>
+                        <tr>
+                          <td>bgcolor</td>
+                          <td>numeric, hexadecimal, RGB values</td>
+                          <td>Places a background color behind an element</td>
+                        </tr>
+                        <tr>
+                          <td>background</td>
+                          <td>URL</td>
+                          <td>Places a background image behind an element</td>
+                        </tr>
+                        <tr>
+                          <td>id</td>
+                          <td>User Defined</td>
+                          <td>Names an element for use with Cascading Style Sheets</td>
+                        </tr>
+                        <tr>
+                          <td>class</td>
+                          <td>User Defined</td>
+                          <td>Classifies an element for use with Cascading Style Sheets</td>
+                        </tr>
+                        <tr>
+                          <td>width</td>
+                          <td>Numeric Value</td>
+                          <td>Specifies the width of tables, images, or table cells</td>
+                        </tr>
+                        <tr>
+                          <td>height</td>
+                          <td>Numeric Value</td>
+                          <td>Specifies the height of tables, images, or table cells</td>
+                        </tr>
+                        <tr>
+                          <td>title</td>
+                          <td>User Defined</td>
+                          <td>"Pop-up" title of the elements</td>
+                        </tr>
+                      </table>
+                      
+                    </div>
+                </div>
+                </div>
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>HTML - Formatting</h2> 
+  <hr>
+  <div class="panel-title">Bold Text</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            Anything that appears within &lt;b>...&lt;/b> element, is displayed in bold as shown <br> below −  
+                          </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                  &lt;!DOCTYPE html&gt;<br>
+                                  &lt;html&gt;<br><br>
+                                  
+                                  &nbsp;&nbsp;&lt;head&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Bold Text Example&lt;/title&gt;<br>
+                                  &nbsp;&nbsp;&lt;/head&gt;<br><br>
+                                    
+                                  &nbsp;&nbsp;&lt;body&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;b&gt;bold&lt;/b&gt; typeface.&lt;/p&gt;<br>
+                                  &nbsp;&nbsp;&lt;/body&gt;<br><br>
+                                    
+                                  &lt;/html&gt;
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                                <p>The following word uses a <b>bold</b> typeface.</p>
+                              </fieldset>
+                            </div>
+                            <!--'///////////////////////italic/////////////////////////////'-->
+                            <hr>
+  <div class="panel-title">Italic Text</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            Anything that appears within &lt;i>...&lt;/i> element is displayed in italicized as shown below −  
+                          
+                          </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                  &lt;!DOCTYPE html&gt;<br>
+                                  &lt;html&gt;<br>
+                                  
+                                  &nbsp;&nbsp;&lt;head&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Italic Text Example&lt;/title&gt;<br>
+                                  &nbsp;&nbsp;&lt;/head&gt;<br>
+                                    
+                                  &nbsp;&nbsp;&lt;body&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses an &lt;i&gt;italicized&lt;/i&gt; typeface.&lt;/p&gt;<br>
+                                  &nbsp;&nbsp;&lt;/body&gt;<br>
+                                    
+                                  &lt;/html&gt;
+                                  
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                                <p>The following word uses an <i>italicized</i> typeface.</p>
+                              </fieldset>
+                            </div>
+                            <!-- ///////////////////////////Underlined.//////////////////////// -->
+                            <hr>
+                            <div class="panel-title">Underlined Text</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            Anything that appears within &lt;u>...&lt;/u> element, is displayed with underline as shown below −
+
+
+                          </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                  &lt;!DOCTYPE html&gt;<br>
+                                  &lt;html&gt;<br>
+                                  
+                                  &nbsp;&nbsp;&lt;head&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Underlined Text Example&lt;/title&gt;<br>
+                                  &nbsp;&nbsp;&lt;/head&gt;<br>
+                                    
+                                  &nbsp;&nbsp;&lt;body&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses an &lt;u&gt;underlined&lt;/u&gt; typeface.&lt;/p&gt;<br>
+                                  &nbsp;&nbsp;&lt;/body&gt;<br>
+                                    
+                                  &lt;/html&gt;
+                                  
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                                <p>The following word uses an <u>underlined</u> typeface.</p>
+                              </fieldset>
+                            </div>
+                            <!-- strik//////////////////////////////////////////// -->
+                            <hr>
+<div class="panel-title">Strike Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        Anything that appears within &lt;strike&gt;...&lt;/strike&gt; 
+        element is displayed with strikethrough, which is a thin line through the text as shown below −
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Strike Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;strike&gt;strikethrough&lt;/strike&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <strike>strikethrough</strike> typeface.</p>
+    </fieldset>
+</div>
+
+<!-- ///////////////////////////////////////monospace///////////////// -->
+<hr>
+<div class="panel-title">Monospaced Font</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The content of a &lt;tt&gt;...&lt;/tt&gt; element is written in monospaced font. Most of the fonts are known as variable-width fonts because different letters are of different widths (for example, the letter 'm' is wider than the letter 'i'). In a monospaced font, however, each letter has the same width.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Monospaced Font Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;tt&gt;monospaced&lt;/tt&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <tt>monospaced</tt> typeface.</p>
+    </fieldset>
+</div>
+<!-- /////////////////////////////////Superscript Text//////////////////////// -->
+<hr>
+<div class="panel-title">Superscript Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The content of a &lt;sup&gt;...&lt;/sup&gt; element is written in superscript; the font size used is the same size as the characters surrounding it but is displayed half a character's height above the other characters.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Superscript Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;sup&gt;superscript&lt;/sup&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <sup>superscript</sup> typeface.</p>
+    </fieldset>
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+<hr>
+<div class="panel-title">Subscript Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The content of a &lt;sub&gt;...&lt;/sub&gt; element is written in subscript; the font size used is the same as the characters surrounding it but is displayed half a character's height beneath the other characters.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Subscript Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;sub&gt;subscript&lt;/sub&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <sub>subscript</sub> typeface.</p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Inserted Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        Anything that appears within &lt;ins&gt;...&lt;/ins&gt; element is displayed as inserted text.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Inserted Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;I want to drink &lt;del&gt;cola&lt;/del&gt; &lt;ins&gt;wine&lt;/ins&gt;&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>I want to drink <del>cola</del> <ins>wine</ins></p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Deleted Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        Anything that appears within &lt;del&gt;...&lt;/del&gt; element is displayed as deleted text.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Deleted Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;I want to drink &lt;del&gt;cola&lt;/del&gt; &lt;ins&gt;wine&lt;/ins&gt;&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>I want to drink <del>cola</del> <ins>wine</ins></p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Larger Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The content of the &lt;big&gt;...&lt;/big&gt; element is displayed one font size larger than the rest of the text surrounding it.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Larger Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;big&gt;big&lt;/big&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <big>big</big> typeface.</p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Smaller Text</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The content of the &lt;small&gt;...&lt;/small&gt; element is displayed one font size smaller than the rest of the text surrounding it.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Smaller Text Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;The following word uses a &lt;small&gt;small&lt;/small&gt; typeface.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>The following word uses a <small>small</small> typeface.</p>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Grouping Content</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The &lt;div&gt; and &lt;span&gt; elements allow you to group together several elements to create sections or subsections of a page.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Div Tag Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="menu" align="middle" >&lt;a href="/index.htm"&gt;HOME&lt;/a&gt; | &lt;a href="/about/contact_us.htm"&gt;CONTACT&lt;/a&gt; | &lt;a href="/about/index.htm"&gt;ABOUT&lt;/a&gt;&lt;/div&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="content" align="left" >&lt;h5&gt;Content Articles&lt;/h5&gt;&lt;p&gt;Actual content goes here.....&lt;/p&gt;&lt;/div&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <div id="menu" align="middle" style="color: black;" >
+            <a href="/index.htm">HOME</a> | 
+            <a href="/about/contact_us.htm">CONTACT</a> | 
+            <a href="/about/index.htm">ABOUT</a>
+        </div>
+
+        <div id="content" align="left" >
+            <h5>Content Articles</h5>
+            <p>Actual content goes here.....</p>
+        </div>
+    </fieldset>
+</div>
+<hr>
+<div class="panel-title">Span Tag Example</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        The &lt;span&gt; element, on the other hand, can be used to group inline elements only. 
+        So, if you have a part of a sentence or paragraph which you want to group together,
+         you could use the &lt;span&gt; element as follows.
+    </p>
+</div>
+<hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Span Tag Example&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is the example of &lt;span style="color:green"&gt;span tag&lt;/span&gt; and the &lt;span style="color:red"&gt;div tag&lt;/span&gt; along with CSS&lt;/p&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+        <p>This is the example of <span style="color:green">span tag</span> and the <span style="color:red">div tag</span> along with CSS</p>
+    </fieldset>
+</div>
+ </div>
+ <!-- ///////////////////////////////////////panel four ends ./////////////////////////////// -->
+  <div class="panel" id="five-panel">
+    <h2>HTML - Comments</h2>
+    <hr>
+    <div class="panel-title">Comments</div>
+    <div class="panel-content">
+      <p>
+        Comment is a piece of code which is ignored by any web browser. 
+        It is a good practice to add comments into your HTML code, especially in complex documents,
+         to indicate sections of a document, and any other notes to anyone looking at the code. 
+        Comments help you and others understand your code and increases code readability.
+      </p>
+      <hr>
+<div class="panel-title">Example</div>
+<div class="panel-code">
+    <fieldset>
+        <div class="panel-content">
+            <p>Sample Code</p>
+        </div>
+        <p>
+          &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+<br>
+   &lt;head&gt;  &lt;!-- Document Header Starts --&gt;<br>
+      &lt;title&gt;This is document title&lt;/title&gt;<br>
+   &lt;/head&gt; &lt;!-- Document Header Ends --&gt;<br>
+<br>
+   &lt;body&gt;<br>
+      &lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+   &lt;/body&gt;<br>
+<br>
+&lt;/html&gt;<br>
+
+          
+        </p>
+    </fieldset>
+</div>
+<div class="panel-content">
+    <p>This will produce the following result −</p>
+</div>
+<div class="panel-output">
+    <fieldset>
+      <p>Document content goes here.....</p>   
+    </fieldset>
+</div>
+ </div>
+ <!-- ./////////////////////////////////////////////////////// -->
+ <hr>
+<div class="panel-title">Valid vs Invalid Comments</div>
+<div class="panel-content">
+    <p>
+        Comments do not nest which means a comment cannot be put inside another comment.
+        Second, the double-dash sequence "--" may not appear inside a comment except as part of the closing --&gt; tag.
+        You must also make sure that there are no spaces in the start-of comment string.
+    </p>
+    <hr>
+    <div class="panel-title">Example</div>
+    <div class="panel-code">
+        <fieldset>
+            <div class="panel-content">
+                <p>Sample Code</p>
+            </div>
+            <p>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                <br>
+                &nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Valid Comment Example&lt;/title&gt;<br>
+                &nbsp;&nbsp;&lt;/head&gt;<br>
+                <br>
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;!--   This is valid comment --&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                <br>
+                &lt;/html&gt;<br>
+            </p>
+        </fieldset>
+    </div>
+    <div class="panel-content">
+        <p>This will produce the following result −</p>
+    </div>
+    <div class="panel-output">
+        <fieldset>
+            <p>Document content goes here.....</p>
+        </fieldset>
+    </div>
+</div>
+
+ <!-- //////////////////////////////////////////////////////// -->
+ <hr>
+ <div class="panel-title">Multiline Comments</div>
+ <div class="panel-content">
+     <p>
+         So far we have seen single line comments, but HTML supports multi-line comments as well.
+         You can comment multiple lines by the special beginning tag &lt;!-- and ending tag --&gt; placed before the first line and end of the last line as shown in the given example below.
+     </p>
+     <hr>
+     <div class="panel-title">Example</div>
+     <div class="panel-code">
+         <fieldset>
+             <div class="panel-content">
+                 <p>Sample Code</p>
+             </div>
+             <p>
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;head&gt;  &lt;!-- Document Header Starts --&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Multiline Comments&lt;/title&gt;<br>
+                 &nbsp;&nbsp;&lt;/head&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;body&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- <br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a multiline comment and it can<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;span through as many as lines you like.<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;--&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+                 &nbsp;&nbsp;&lt;/body&gt;<br>
+                 <br>
+                 &lt;/html&gt;<br>
+             </p>
+         </fieldset>
+     </div>
+     <div class="panel-content">
+         <p>This will produce the following result −</p>
+     </div>
+     <div class="panel-output">
+         <fieldset>
+             <p>Document content goes here.....</p>
+         </fieldset>
+     </div>
+ </div>
+ 
+ <hr>
+ <div class="panel-title">Conditional Comments</div>
+ <div class="panel-content">
+     <p>
+         Conditional comments only work in Internet Explorer (IE) on 
+         Windows but they are ignored by other browsers. They are supported from
+          Explorer 5 onwards, and you can use them to give conditional instructions to different versions of IE.
+     </p>
+     <hr>
+     <div class="panel-title">Example</div>
+     <div class="panel-code">
+         <fieldset>
+             <div class="panel-content">
+                 <p>Sample Code</p>
+             </div>
+             <p>
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;head&gt;  &lt;!-- Document Header Starts --&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Conditional Comments&lt;/title&gt;<br>
+                 &nbsp;&nbsp;&lt;/head&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;body&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+                 &nbsp;&nbsp;&lt;/body&gt;<br>
+                 <br>
+                 &lt;/html&gt;<br>
+                 <br>
+                 &lt;!--[if IE 6]&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;Special instructions for IE 6 here<br>
+                 &lt;![endif]--&gt;<br>
+             </p>
+         </fieldset>
+     </div>
+ </div>
+ 
+ <hr>
+ <div class="panel-title">Using Comment Tag</div>
+ <div class="panel-content">
+     <p>
+         There are few browsers that support &lt;comment&gt; tag to comment a part of HTML code.
+     </p>
+     <p><strong>Note</strong> − The &lt;comment&gt; tag deprecated in HTML5. Do not use this element.</p>
+     <hr>
+     <div class="panel-title">Example</div>
+     <div class="panel-code">
+         <fieldset>
+             <div class="panel-content">
+                 <p>Sample Code</p>
+             </div>
+             <p>
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;head&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Using Comment Tag&lt;/title&gt;<br>
+                 &nbsp;&nbsp;&lt;/head&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;body&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is &lt;comment&gt;not&lt;/comment&gt; Internet Explorer.&lt;/p&gt;<br>
+                 &nbsp;&nbsp;&lt;/body&gt;<br>
+                 <br>
+                 &lt;/html&gt;<br>
+             </p>
+         </fieldset>
+     </div>
+ </div>
+ 
+ <hr>
+ <div class="panel-title">Commenting Script Code</div>
+ <div class="panel-content">
+     <p>
+         Though you will learn JavaScript with HTML, in a separate tutorial, but here you must make a note that if you are using JavaScript or VBScript in your HTML code then it is recommended to put that script code inside proper HTML comments so that old browsers can work properly.
+     </p>
+     <hr>
+     <div class="panel-title">Example</div>
+     <div class="panel-code">
+         <fieldset>
+             <div class="panel-content">
+                 <p>Sample Code</p>
+             </div>
+             <p>
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;head&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Commenting Script Code&lt;/title&gt;<br>
+                 &nbsp;&nbsp;&lt;/head&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;body&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hello, World!&lt;/p&gt;<br>
+                 &nbsp;&nbsp;&lt;/body&gt;<br>
+                 <br>
+                 &lt;/html&gt;<br>
+                 <br>
+                 &lt;script&gt;<br>
+                 &nbsp;&nbsp;&lt;!-- <br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;document.write("Hello World!")<br>
+                 &nbsp;&nbsp;&lt;!-- --&gt;<br>
+                 &lt;/script&gt;<br>
+             </p>
+         </fieldset>
+     </div>
+ </div>
+ 
+ <hr>
+ <div class="panel-title">Commenting Style Sheets</div>
+ <div class="panel-content">
+     <p>
+         Though you will learn using style sheets with HTML in a separate tutorial, but here you must make a note that if you are using Cascading Style Sheet (CSS) in your HTML code then it is recommended to put that style sheet code inside proper HTML comments so that old browsers can work properly.
+     </p>
+     <hr>
+     <div class="panel-title">Example</div>
+     <div class="panel-code">
+         <fieldset>
+             <div class="panel-content">
+                 <p>Sample Code</p>
+             </div>
+             <p>
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;head&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Commenting Style Sheets&lt;/title&gt;<br>
+                 &nbsp;&nbsp;&lt;/head&gt;<br>
+                 <br>
+                 &nbsp;&nbsp;&lt;body&gt;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class = "example"&gt;Hello , World!&lt;/div&gt;<br>
+                 &nbsp;&nbsp;&lt;/body&gt;<br>
+                 <br>
+                 &lt;/html&gt;<br>
+                 <br>
+                 &lt;style&gt;<br>
+                 &nbsp;&nbsp;&lt;!-- <br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;.example {<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border:1px solid #4a7d49;<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                 &nbsp;&nbsp;&lt;!-- --&gt;<br>
+                 &lt;/style&gt;<br>
+             </p>
+         </fieldset>
+     </div>
+     <div class="panel-content">
+      <p>This will produce the following result −</p>
+  </div>
+  <div class="panel-output">
+      <fieldset>
+          <p>Hello , World</p>
+          <p>Hello , World</p>
+
+      </fieldset>
+  </div>
+ </div>
+  </div>
+ <!-- //////////////////////////////////////////////////////////// -->
+
+
+
+
+
+  </div>
+  </div>
+</div>
+</div>
+<footer style="background-color: black;">
+  
+  <p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+  <div class="foot">
+     <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+      <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+  </div>
+  <h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

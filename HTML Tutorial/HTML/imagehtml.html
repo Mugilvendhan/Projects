@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorhtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+               
+              </li>
+             
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Insertion</label>
+  <label class="tab" id="two-tab" for="two">Position</label>
+  <label class="tab" id="three-tab" for="three">Borders</label>
+  <label class="tab" id="four-tab" for="four">Alignment</label>
+ <label class="tab" id="five-tab" for="five">Location</label>
+  <!--  <label class="tab" id="six-tab" for="six">Fonts</label> -->
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML - Images</h2>  
+    <hr>
+    <div class="panel-title">Insert Image</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            You can insert any image in your web page by using <span>&lt;img> tag</span>. Following is the simple syntax to use this tag.
+
+            &lt;img src = "Image URL" ... attributes-list/>
+            The <span>&lt;img> </span>tag is an empty tag, which means that, 
+            it can contain only list of attributes and it has no closing tag.
+
+        
+        </p>
+        <hr>
+              <div class="panel-title">Example</div>
+              <div class="panel-code">
+               <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+                  <p>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                       &lt;head&gt;<br>
+                          &lt;title&gt;Using Image in Webpage&lt;/title&gt;<br>
+                       &lt;/head&gt;<br>
+                       &lt;body&gt;<br>
+                          &lt;p&gt;Simple Image Insert&lt;/p&gt;<br>
+                          &lt;img src="/html/images/test.png" alt="Test Image" /&gt;<br>
+                       &lt;/body&gt;<br>
+                    &lt;/html&gt;
+                    
+                    
+    
+    
+                  </p>
+                </fieldset>  
+              </div>
+              <div class="panel-content">
+                <p>This will produce the following result −</p>
+              </div>
+              <div class="panel-output">
+                <fieldset><br><br><br><br>
+                    <img src="html.1.gif" alt="" height="100px" width="100px" style="float:left;" ><br><br>
+                </fieldset>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////// -->        
+  </div>
+  </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>Positions(Height/Width)</h2>
+          <hr>
+    <div class="panel-title">Set Image Width/Height</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            You can set image width and height based on your requirement using width and height attributes. 
+            You can specify width and height of the image in terms of either pixels or percentage of its actual size.
+        
+        </p>
+    </div>
+    
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                   &lt;head&gt;<br>
+                      &lt;title&gt;Set Image Width and Height&lt;/title&gt;<br>
+                   &lt;/head&gt;<br>
+                   &lt;body&gt;<br>
+                      &lt;p&gt;Setting image width and height&lt;/p&gt;<br>
+                      &lt;img src="/html/images/test.png" alt="Test Image" width="150" height="100"/&gt;<br>
+                   &lt;/body&gt;<br>
+                &lt;/html&gt;
+                
+
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                
+                
+               <p>Setting image width and height</p>
+               <img src="html.1.gif" alt="" height="150px" width="150px" style="float:left;" ><br><br>
+               
+                
+            </fieldset>
+          </div>
+   
+  </div>
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>Image Borders</h2>
+    <hr>
+    <div class="panel-title"> Set Image Border</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            By default, image will have a border around it, you can specify border thickness
+             in terms of pixels using border attribute. A thickness of 0 means, no border around the picture.
+        </p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="table">
+          </div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+   &lt;head&gt;<br>
+      &lt;title&gt;Set Image Border&lt;/title&gt;<br>
+   &lt;/head&gt;<br>
+   &lt;body&gt;<br>
+      &lt;p&gt;Setting image Border&lt;/p&gt;<br>
+      &lt;img src="/html/images/test.png" alt="Test Image" border="3"/&gt;<br>
+   &lt;/body&gt;<br>
+&lt;/html&gt;
+
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <p>Setting image Border</p>
+                <img src="html.1.gif" alt="" height="150px" width="150px" style="float:left;" border="3" ><br><br>
+               
+
+            </fieldset>
+          </div>
+          <!-- //////////////////////////////////core attribute/////////////////////////////// -->
+          
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>Image Alingment</h2> 
+  <hr>
+  <div class="panel-title">Set Image Alignment</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            By default, image will align at the left side of the page, 
+                            but you can use align attribute to set it in the center or right.
+                                
+                        
+                        
+                        
+                        
+                        </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                    &lt;!DOCTYPE html&gt;<br>
+                                    &lt;html&gt;<br>
+                                       &lt;head&gt;<br>
+                                          &lt;title&gt;Set Image Alignment&lt;/title&gt;<br>
+                                       &lt;/head&gt;<br>
+                                       &lt;body&gt;<br>
+                                          &lt;p&gt;Setting image Alignment&lt;/p&gt;<br>
+                                          &lt;img src="/html/images/test.png" alt="Test Image" border="3" align="right"/&gt;<br>
+                                       &lt;/body&gt;<br>
+                                    &lt;/html&gt;
+                                    
+                                    
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                               
+                                
+                           <p>Setting image Alignment</p>
+                           <img src="html.1.gif" alt="" height="150px" width="150px" align="right" border="3" ><br><br>
+                 
+                        
+
+                              </fieldset>
+                            </div>
+                            
+ </div>
+ <!-- ///////////////////////////////////////panel four ends ./////////////////////////////// -->
+  <div class="panel" id="five-panel">
+    <h2>Img Location</h2>
+    <hr>
+    <div class="panel-title">Set Image Location</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        Usually we keep all the images in a separate directory. So let's keep HTML file test.htm in our home directory
+         and create a subdirectory images inside the home directory where we will keep our <span>image test.png</span>.
+    </p>
+</div>
+    
+    <hr>
+    <div class="panel-title">Example</div>
+    <div class="panel-code">
+        <fieldset>
+            <div class="panel-content">
+                <p>Sample Code</p>
+            </div>
+            <p>
+                &lt;!DOCTYPE html&gt;<br>
+ &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;head&gt;<br>
+       &nbsp;&nbsp;&lt;title&gt;Using Image in Webpage&lt;/title&gt;<br>
+    &nbsp;&nbsp;&lt;/head&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Simple Image Insert&lt;/p&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="/html/images/test.png" alt="Test Image" /&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+ &lt;/html&gt;
+
+            </p>
+        </fieldset>
+    </div>
+    <div class="panel-content">
+        <p>This will produce the following result −</p>
+    </div>
+    <div class="panel-output">
+        <fieldset>
+            <p>Simple Image Insert</p>
+            <img src="html.1.gif" alt="" height="150px" width="150px"  ><br><br>
+                 
+        </fieldset>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<footer style="background-color: black;">
+
+<p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+<div class="foot">
+   <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+    <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+</div>
+<h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginhtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+               
+              </li>
+              
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                 
+                </ul>
+              </li>
+               <li>
+                <a href="#"><i class="ion-ios-paper-outline"></i> <span class="">Login</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="loginhtml.html"><i class="ion-ios-filing-outline"></i>sign in</a>
+                  </li>
+                  <li>
+                    <a href="loginhtml.html"><i class="ion-ios-information-outline"></i>sign up</a>
+                  </li>
+                 
+                </ul>
+              </li> 
+              
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Sign in</label>
+  <label class="tab" id="two-tab" for="two">Sign up</label>
+ 
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>Login Here!</h2>  
+    <hr>
+    <div class="panel-quiz">
+        <fieldset>
+    <h2>Login</h2>
+    <form action="process-login.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"  required><br><br>
+        
+        <a href=""><input type="submit" value="Login"></a>
+    </form>
+
+        </fieldset>
+    </div>
+       
+    </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>Sign up Here!</h2>
+          <hr>
+         <div class="panel-quiz">
+            <fieldset>
+               
+    <h2>Sign Up</h2>
+    <form action="process-signup.php" method="POST">
+        <label for="username">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+       <a href=""> <input type="submit" value="Sign Up"></a>
+    </form>
+
+            </fieldset>
+         </div>
+  </div>
+
+<!--panel 2 completed-->
+
+ 
+<!--panel 3 completed-->
+ 
+</div>
+</div>
+</div>
+<footer style="background-color: black;">
+
+<p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+<div class="foot">
+   <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+    <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+</div>
+<h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>

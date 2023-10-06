@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorhtml.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="app">
+        <aside class="sidebar">
+               <header>
+              Menu
+            </header>
+          <nav class="sidebar-nav">
+       
+            <ul>
+              <li>
+                <a href="htmlfpage1.html"> <i class="ion-bag"></i><span>Home</span></a>
+               
+              </li>
+             
+              <li>
+                <a href=""><i class="ion-ios-briefcase-outline"></i><span class="">Learn HTML</span></a>
+             <ul class="nav-flyout">
+              <li>
+                <a href="demo.html"><i class="ion-ios-flame-outline"></i>Introduction</a>
+              </li>
+              <li>
+                <a href="basichtml.html"><i class="ion-ios-lightbulb-outline"></i>Basics</a>
+              </li>
+              <li>
+                <a href="colorhtml.html"><i class="ion-ios-location-outline"></i>Colors</a>
+              </li>
+             <li>
+                <a href="imagehtml.html"><i class="ion-ios-locked-outline"></i>Images</a>
+              </li>
+               <li>
+                <a href="linkhtml.html"><i class="ion-ios-navigate-outline"></i>Links</a>
+              </li>
+              <li>
+                <a href="tablehtml.html"><i class="ion-ios-navigate-outline"></i>Tables</a>
+              </li>
+              <li>
+                <a href="formshtml.html"><i class="ion-ios-navigate-outline"></i>Forms</a>
+              </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Examine</span></a>
+                <ul class="nav-flyout">
+                  <li>
+                    <a href="htmlquiz.html"><i class="ion-ios-timer-outline"></i>HTML Quiz</a>
+                  </li>
+                  <li>
+                    <a href="taskhtml.html"><i class="ion-arrow-graph-down-left"></i>HTML Tasks</a>
+                  </li>
+                 
+                </ul>
+              </li>
+              
+             
+            </ul>
+          </nav>
+        </aside>
+      </section>
+     <div class="align">
+      <header>
+        
+        <a href="htmlfpage1.html"><div class="logo"><i class='bx bx-code-block'></i>&nbsp;&nbsp;LearnersPoint</div></a>
+    </header>
+
+        
+  
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Text</label>
+  <label class="tab" id="two-tab" for="two">Attribute</label>
+  <label class="tab" id="three-tab" for="three">Email</label>
+  <label class="tab" id="four-tab" for="four">Image</label>
+ <label class="tab" id="five-tab" for="five">Download</label>
+  <!--  <label class="tab" id="six-tab" for="six">Fonts</label> -->
+    </div>
+
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <h2>HTML - Text Links</h2>  
+    <hr>
+    <div class="panel-title">Linking Documents </div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            A link is specified using HTML tag <span>&lt;a></span>. This tag is called anchor tag and anything between 
+            the <span>opening &lt;a> tag</span> and the <span>closing &lt;/a> tag</span> becomes part of the link and a user can click that 
+            part to reach to the linked document.
+             Following is the simple syntax to use <span>&lt;a> tag</span>.
+        
+        </p>
+        <hr>
+              <div class="panel-title">Example</div>
+              <div class="panel-code">
+               <fieldset>
+                <div class="panel-content"><p>Sample Code</p></div>
+                  <p>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                       &nbsp;&nbsp;&lt;head&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hyperlink Example&lt;/title&gt;<br>
+                       &nbsp;&nbsp;&lt;/head&gt;<br>
+                       &nbsp;&nbsp;&lt;body&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Click the following link&lt;/p&gt;<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="www.LearnersPoint.com" target="_self"&gt;LearnsPoint&lt;/a&gt;<br>
+                       &nbsp;&nbsp;&lt;/body&gt;<br>
+                    &lt;/html&gt;
+                   
+                    
+    
+    
+                  </p>
+                </fieldset>  
+              </div>
+              <div class="panel-content">
+                <p>This will produce the following result −</p>
+              </div>
+              <div class="panel-output">
+                <fieldset>
+                    <p>Click the following link</p>   
+                <a href="htmlfpage1.html" style="color: blue;">LearnersPoint</a>
+                </fieldset>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////// -->        
+  </div>
+  </div>
+  <!--panel 1 completed-->
+
+  <div class="panel" id="two-panel">
+          <h2>Attribute</h2>
+          <hr>
+    <div class="panel-title">Target Attribute</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            We have used target attribute in our previous example. 
+            This attribute is used to specify the location where linked document is opened.
+             Following are the possible options −
+        </p>
+    </div>
+           <div class="table">
+            <table border="1">
+                <tr>
+                   <th>Sr.No</th>
+                   <th>Option</th>
+                   <th>Description</th>
+                </tr>
+                <tr>
+                   <td>1</td>
+                   <td>_blank</td>
+                   <td>Opens the linked document in a new window or tab.</td>
+                </tr>
+                <tr>
+                   <td>2</td>
+                   <td>_self</td>
+                   <td>Opens the linked document in the same frame.</td>
+                </tr>
+                <tr>
+                   <td>3</td>
+                   <td>_parent</td>
+                   <td>Opens the linked document in the parent frame.</td>
+                </tr>
+                <tr>
+                   <td>4</td>
+                   <td>_top</td>
+                   <td>Opens the linked document in the full body of the window.</td>
+                </tr>
+                <tr>
+                   <td>5</td>
+                   <td>targetframe</td>
+                   <td>Opens the linked document in a named target frame.</td>
+                </tr>
+             </table>
+           </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;!DOCTYPE html&gt;<br>
+ &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;head&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hyperlink Example&lt;/title&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;base href="https://www.tutorialspoint.com/" /&gt;<br>
+    &nbsp;&nbsp;&lt;/head&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Click any of the following links&lt;/p&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="/html/index.htm" target="_blank"&gt;Opens in New&lt;/a&gt; |<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="/html/index.htm" target="_self"&gt;Opens in Self&lt;/a&gt; |<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="/html/index.htm" target="_parent"&gt;Opens in Parent&lt;/a&gt; |<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="/html/index.htm" target="_top"&gt;Opens in Body&lt;/a&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+ &lt;/html&gt;
+
+                
+
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <p>Click any of the following links</p>
+      <a href = "/html/index.htm" target = "_blank"  style="color: blue;" >Opens in New</a> |
+      <a href = "/html/index.htm" target = "_self"  style="color: blue;">Opens in Self</a> |
+      <a href = "/html/index.htm" target = "_parent"  style="color: blue;">Opens in Parent</a> |
+      <a href = "/html/index.htm" target = "_top"  style="color: blue;">Opens in Body</a>
+   
+                
+              
+                
+            </fieldset>
+          </div>
+   
+  </div>
+
+<!--panel 2 completed-->
+
+  <div class="panel" id="three-panel">
+    <h2>HTML Email Tag</h2>
+    <hr>
+    <div class="panel-title"> Set Email Link</div><br>
+    <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+    <div class="panel-content">
+        <p style="text-align:justify;">
+            HTML &lt;a> tag provides you option to specify an email address to send an email. While using &lt;a> tag as an email tag, you will use <span>mailto: </span>
+                email address along with href attribute. Following is the syntax of using mailto instead of using http.</p>
+    </div>
+        <hr>
+          <div class="panel-title">Example</div>
+          <div class="table">
+          </div>
+          <div class="panel-code">
+           <fieldset>
+            <div class="panel-content"><p>Sample Code</p></div>
+              <p>
+                &lt;a href = "mailto: abc@example.com">Send Email</a>
+
+
+
+              </p>
+            </fieldset>  
+          </div>
+          <div class="panel-content">
+            <p>This will produce the following result −</p>
+          </div>
+          <div class="panel-output">
+            <fieldset>
+                <p>Send Email</p>
+               
+
+            </fieldset>
+          </div>
+          <!-- //////////////////////////////////core attribute/////////////////////////////// -->
+          
+  </div>
+<!--panel 3 completed-->
+ <div class="panel" id="four-panel">
+  <h2>HTML - Image Links</h2> 
+  <hr>
+  <div class="panel-title">Set Image Link</div><br>
+                      <!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+                      <div class="panel-content">
+                          <p style="text-align:justify;">
+                            It's simple to use an image as hyperlink.
+                             We just need to use an image inside hyperlink at the place of text as shown below −    
+                        
+                        
+                        
+                        
+                        </p>
+                      </div>
+                          <hr>
+                            <div class="panel-title">Example</div>
+                            <div class="panel-code">
+                             <fieldset>
+                              <div class="panel-content"><p>Sample Code</p></div>
+                                <p>
+                                    &lt;!DOCTYPE html&gt;<br>
+                                    &lt;html&gt;<br>
+                                       &nbsp;&nbsp;&lt;head&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Image Hyperlink Example&lt;/title&gt;<br>
+                                       &nbsp;&nbsp;&lt;/head&gt;<br>
+                                       &nbsp;&nbsp;&lt;body&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Click the following link&lt;/p&gt;<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="https://www.LearnsPoint.com" target="_self"&gt; 
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="/images/logo.png" alt="Tutorials Point" border="0"/&gt; 
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br>
+                                       &nbsp;&nbsp;&lt;/body&gt;<br>
+                                    &lt
+                                   
+                                    
+                                   
+                                
+                                
+                                </p>
+                              </fieldset>  
+                            </div>
+                            <div class="panel-content">
+                              <p>This will produce the following result −</p>
+                            </div>
+                            <div class="panel-output">
+                              <fieldset>
+                               
+                                
+                           <p>Click following link</p>
+                           <a href = "htmlfpage1.html" target = "_self"> 
+                            <img src = "html.1.gif" alt = "Tutorials Point" height="150" width="150" border = "0"/> 
+                         </a>
+                        
+
+                              </fieldset>
+                            </div>
+                            
+ </div>
+ <!-- ///////////////////////////////////////panel four ends ./////////////////////////////// -->
+  <div class="panel" id="five-panel">
+    <h2>Download Links</h2>
+    <hr>
+    <div class="panel-title">Download Doc</div>
+<br>
+<!-- <div class="panel-img"><img src="web11.jpg" alt=""></div><br> -->
+<div class="panel-content">
+    <p>
+        You can create text link to make your <span>PDF, or DOC or ZIP</span> files downloadable.
+         This is very simple; you just need to give complete URL of the downloadable file as follows −    
+    
+    </p>
+</div>
+    
+    <hr>
+    <div class="panel-title">Example</div>
+    <div class="panel-code">
+        <fieldset>
+            <div class="panel-content">
+                <p>Sample Code</p>
+            </div>
+            <p>
+                &lt;!DOCTYPE html&gt;<br>
+ &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;head&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hyperlink Example&lt;/title&gt;<br>
+    &nbsp;&nbsp;&lt;/head&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="https://www.LearnersPoint.com/page.pdf"&gt;Download PDF File&lt;/a&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+ &lt;/html&gt;
+
+            </p>
+        </fieldset>
+    </div>
+    <div class="panel-content">
+        <p>This will produce the following result −</p>
+    </div>
+    <div class="panel-output">
+        <fieldset><br>
+            
+            <a href = "htmlfpage1.html/page.pdf" style="color:blue ;">Download PDF File</a>
+  
+                 <br><br>
+        </fieldset>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<footer style="background-color: black;">
+
+<p><a href="htmlfpage1.html">Home</a> &nbsp; &nbsp; &nbsp;<a href="abouthtml.html">About us</a> &nbsp; &nbsp; &nbsp;<a href="demo.html">HTML</a>  &nbsp; &nbsp; &nbsp;<a href="htmlquiz.html">Examine</a></p>
+<div class="foot">
+   <p>Contact us &nbsp; &nbsp; &nbsp;<i class='bx bxl-linkedin-square'></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-twitter' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;
+    <i class='bx bxl-youtube' style='color:#ffffff' ></i>&nbsp; &nbsp; &nbsp;<i class='bx bxl-instagram' style='color:#ffffff' ></i></p>
+</div>
+<h5 style="text-align: center;">© Copyright 2023. All Rights Reserved.</h5>
+</footer>
+</body>
+</html>
